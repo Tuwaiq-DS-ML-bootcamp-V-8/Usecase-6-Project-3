@@ -1,4 +1,5 @@
-﻿import streamlit as st
+﻿"""
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 
@@ -57,5 +58,66 @@ if not filtered_df.empty:
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
+"""
+
+
+
+
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# Load the dataset
+df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
+
+# Streamlit app title
+st.title("Riyadh Real Estate Price")
+
+# Step 1: Filter by Location
+st.header("حدد اي منطقة في الرياض")
+selected_location = st.selectbox('منطقة', df['location'].unique())
+
+# Filter the data based on the selected location
+filtered_df = df[df['location'] == selected_location]
+
+# Display the updated line chart after filtering by location
+if not filtered_df.empty:
+    filtered_df = filtered_df.sort_values(by='price')
+    fig = px.line(filtered_df, x=filtered_df.index, y='price', title=f'Price Trend for Location: {selected_location}')
+    st.plotly_chart(fig)
+else:
+    st.write("لايوجد بيانات")
+
+# Step 2: Filter by Front
+st.header("حدد خيارات الشارع حول المبنى")
+selected_front = st.selectbox('الخيارات', filtered_df['front'].unique())
+
+# Filter the data based on the selected front
+filtered_df = filtered_df[filtered_df['front'] == selected_front]
+
+# Display the updated line chart after filtering by front
+if not filtered_df.empty:
+    filtered_df = filtered_df.sort_values(by='price')
+    fig = px.line(filtered_df, x=filtered_df.price.index, y='price', title=f'Price Trend for Front: {selected_front}')
+    st.plotly_chart(fig)
+else:
+    st.write("لايوجد بيانات")
+
+# Step 3: Filter by Lounges
+st.header("Step 3: Select Number of Lounges")
+street_width = st.sidebar.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
+
+# Filter the data based on the number of lounges
+filtered_df = filtered_df[filtered_df['streetWidth'] == street_width]
+
+# Display the updated line chart after filtering by lounges
+if not filtered_df.empty:
+    filtered_df = filtered_df.sort_values(by='price')
+    fig = px.line(filtered_df, x=filtered_df.index, y='price', title=f'Price Trend for Lounges: {lounges}')
+    st.plotly_chart(fig)
+else:
+    st.write("لايوجد بيانات")
+
+# Add more steps for other factors in a similar manner (e.g., Street Width, Property Age, etc.)
 
 
