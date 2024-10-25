@@ -71,12 +71,19 @@ import plotly.express as px
 df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 
 # Streamlit app title
-st.title("Riyadh Real Estate Price")
+st.title("اختلاف اسعار الفلل بأختلاف العوامل")
 
 st.write("""
-Welcome to the Riyadh Real Estate Price Explorer! This app allows you to progressively filter properties based on various factors and view the price trends dynamically.
-Start by selecting a **Location** and continue adjusting the filters as you scroll down.
-""")
+كلنا نعرف ان سعر الفله او البيت تختلف بأختلاف عوامل كثيرة مثل المنطقة ومساحة الارض وعوامل اخرى مثل 
+عمر المبنى
+وجود حديقة خارجية 
+وجود مسبح 
+الا اخره ....
+
+         
+لكن هل فكرت بالعوامل الاخرى مثل عرض الشارع المقابل         
+اتجاه الواجه الامامية 
+وكيف راح تأثر على السعر اذا ماقارنا اراضي بنفس المساحة وبنفس المنطقة لكن الشارع المقابل واتجاه الواجهة الامامية يختلف""")
 
 
 
@@ -84,7 +91,7 @@ Start by selecting a **Location** and continue adjusting the filters as you scro
 st.header("حدد اي منطقة في الرياض")
 selected_location = st.selectbox('منطقة', df['location'].unique())
 
-st.write("First, select a location to start narrowing down the available properties. The chart below will update to reflect the price trends for the selected location.")
+st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم البياني يظهر اختلاف الاسعار")
 filtered_df = df[df['location'] == selected_location]
 
 # Display the updated line chart after filtering by location
@@ -112,8 +119,7 @@ else:
 
 st.write("""
 ---
-### Step 2: Select Front
-Now, refine your search further by selecting the **Front** of the property. This will further narrow down the properties that match your location and front preferences.
+### ثانيا, حدد حدد خيارات الشارع اساسه الرسم البياني يظهر اختلاف الاسعار
 """)
 
 st.header("حدد عرض الشارع المقابل")
