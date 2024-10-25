@@ -75,7 +75,7 @@ st.title("Riyadh Real Estate Price")
 
 # Step 1: Filter by Location
 st.header("حدد اي منطقة في الرياض")
-selected_location = st.sidebar.selectbox('منطقة', df['location'].unique())
+selected_location = st.selectbox('منطقة', df['location'].unique())
 
 # Filter the data based on the selected location
 filtered_df = df[df['location'] == selected_location]
@@ -83,14 +83,14 @@ filtered_df = df[df['location'] == selected_location]
 # Display the updated line chart after filtering by location
 if not filtered_df.empty:
     filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df, x=filtered_df.price.index, y='price', title=f'Price Trend for Location: {selected_location}')
+    fig = px.line(filtered_df.price, x=filtered_df.price.index, y='price', title=f'Price Trend for Location: {selected_location}')
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
 
 # Step 2: Filter by Front
-st.header("حدد خيارات الشارع حول المبنى")
-selected_front = st.sidebar.selectbox('الخيارات', filtered_df['front'].unique())
+st.header("حدد خيارات واجهة المبنى")
+selected_front = st.selectbox('الخيارات', filtered_df['front'].unique())
 
 # Filter the data based on the selected front
 filtered_df = df[df['front'] == selected_front]
@@ -98,22 +98,22 @@ filtered_df = df[df['front'] == selected_front]
 # Display the updated line chart after filtering by front
 if not filtered_df.empty:
     filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df, x=filtered_df.price.index, y='price', title=f'Price Trend for Front: {selected_front}')
+    fig = px.line(filtered_df.price, x=filtered_df.price.index, y='price', title=f'Price Trend for Front: {selected_front}')
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
 
 # Step 3: Filter by Lounges
 st.header("حدد عرض الشارع المقابل")
-street_width = st.sidebar.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
+street_width = st.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
 
-# Filter the data based on the number of lounges
-filtered_df = df[df['streetWidth'] == street_width]
+# Filter the data based on the streetWidth
+filtered_df = df[df['streetWidth'] <= street_width]
 
-# Display the updated line chart after filtering by lounges
+# Display the updated line chart after filtering by street_width
 if not filtered_df.empty:
     filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df, x=filtered_df.price.index, y='price', title=f'Price Trend for street_width: {street_width}')
+    fig = px.line(filtered_df.price, x=filtered_df.price.index, y='price', title=f'Price Trend for street_width: {street_width}')
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
