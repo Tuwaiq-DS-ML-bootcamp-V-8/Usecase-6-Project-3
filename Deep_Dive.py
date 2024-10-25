@@ -36,7 +36,7 @@ filtered_df = df[df['location'] == selected_location]
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
     st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
-    fig = px.bar(filtered_df, x='front', y='price', animation_frame=df['streetWidth'], animation_group='front', 
+    fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
                  title=f'اختلاف الاسعار بتغير عاملين اتجاه المبنى و عرض الشارع {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     fig.update_layout(
