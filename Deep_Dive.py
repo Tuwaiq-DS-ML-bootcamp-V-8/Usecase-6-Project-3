@@ -7,14 +7,12 @@ import plotly.express as px
 # Load the dataset
 df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 
-# Streamlit app title
-st.title("اختلاف اسعار الفلل بأختلاف العوامل")
 
 
 # Example of embedding HTML
 st.markdown("""
-    <h1 style='text-align: center; color: blue;'>Welcome to My Real Estate App</h1>
-    <p>
+    <h1 style='text-align: center; color: blue;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
+    <h2>
 كلنا نعرف ان سعر الفله او البيت تختلف بأختلاف عوامل كثيرة مثل المنطقة ومساحة الارض وعوامل اخرى مثل 
 عمر المبنى
 وجود حديقة خارجية 
@@ -26,28 +24,15 @@ st.markdown("""
 اتجاه الواجه الامامية 
 
 وكيف راح تأثر على السعر اذا ماقارنا اراضي بنفس المساحة وبنفس المنطقة لكن الشارع المقابل واتجاه الواجهة الامامية يختلف
-</p>
+</h2>
     <hr>
-    <h2 style='color: green;'>Select Options Below:</h2>
+    <h2 style='color: green;'>اولا: حدد اي منطقة في الرياض"</h2>
     """, unsafe_allow_html=True)
 
-st.write("""
-كلنا نعرف ان سعر الفله او البيت تختلف بأختلاف عوامل كثيرة مثل المنطقة ومساحة الارض وعوامل اخرى مثل 
-عمر المبنى
-وجود حديقة خارجية 
-وجود مسبح 
-الا اخره ....
-
-         
-لكن هل فكرت بالعوامل الاخرى مثل عرض الشارع المقابل         
-اتجاه الواجه الامامية 
-
-وكيف راح تأثر على السعر اذا ماقارنا اراضي بنفس المساحة وبنفس المنطقة لكن الشارع المقابل واتجاه الواجهة الامامية يختلف
-""")
 
 
 # Step 1: Filter by Location
-st.header("حدد اي منطقة في الرياض")
+st.header("اولا: حدد اي منطقة في الرياض")
 selected_location = st.selectbox('منطقة', df['location'].unique())
 
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
