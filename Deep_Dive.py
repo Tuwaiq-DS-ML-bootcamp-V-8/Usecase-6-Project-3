@@ -91,55 +91,17 @@ st.write("""
 st.header("حدد اي منطقة في الرياض")
 selected_location = st.selectbox('منطقة', df['location'].unique())
 
-st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم البياني يظهر اختلاف الاسعار")
+st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
 filtered_df = df[df['location'] == selected_location]
 
 # Display the updated line chart after filtering by location
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
-    st.subheader(f"Price vs. Location: {selected_location}")
+    st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
                  title=f'Animated Price Distribution for Location: {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
-
-# Step 2: Filter by Front
-st.header("حدد خيارات واجهة المبنى")
-selected_front = st.selectbox('الخيارات', filtered_df['front'].unique())
-
-# Filter the data based on the selected front
-filtered_df = df[df['front'] == selected_front]
-
-# Display the updated line chart after filtering by front
-if not filtered_df.empty:
-    filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df.price, x=filtered_df.price.index, y='price', title=f'Price Trend for Front: {selected_front}')
-    st.plotly_chart(fig)
-else:
-    st.write("لايوجد بيانات")
-
-st.write("""
----
-### ثانيا, حدد حدد خيارات الشارع اساسه الرسم البياني يظهر اختلاف الاسعار
-""")
-
-st.header("حدد عرض الشارع المقابل")
-street_width = st.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
-
-# Filter the data based on the streetWidth
-filtered_df = df[df['streetWidth'] <= street_width]
-
-# Display the updated line chart after filtering by street_width
-if not filtered_df.empty:
-    filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df.price, x=filtered_df.price.index, y='price', title=f'Price Trend for street_width: {street_width}')
-    st.plotly_chart(fig)
-else:
-    st.write("لايوجد بيانات")
-
-# Add more steps for other factors in a similar manner (e.g., Street Width, Property Age, etc.)
-
-
