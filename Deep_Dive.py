@@ -73,11 +73,18 @@ df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 # Streamlit app title
 st.title("Riyadh Real Estate Price")
 
+st.write("""
+Welcome to the Riyadh Real Estate Price Explorer! This app allows you to progressively filter properties based on various factors and view the price trends dynamically.
+Start by selecting a **Location** and continue adjusting the filters as you scroll down.
+""")
+
+
+
 # Step 1: Filter by Location
 st.header("حدد اي منطقة في الرياض")
 selected_location = st.selectbox('منطقة', df['location'].unique())
 
-# Filter the data based on the selected location
+st.write("First, select a location to start narrowing down the available properties. The chart below will update to reflect the price trends for the selected location.")
 filtered_df = df[df['location'] == selected_location]
 
 # Display the updated line chart after filtering by location
@@ -103,7 +110,12 @@ if not filtered_df.empty:
 else:
     st.write("لايوجد بيانات")
 
-# Step 3: Filter by Lounges
+st.write("""
+---
+### Step 2: Select Front
+Now, refine your search further by selecting the **Front** of the property. This will further narrow down the properties that match your location and front preferences.
+""")
+
 st.header("حدد عرض الشارع المقابل")
 street_width = st.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
 
