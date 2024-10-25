@@ -1,5 +1,6 @@
 ﻿import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # Load the dataset
 df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
@@ -46,19 +47,15 @@ filtered_df = df[
     (df['basement'] == basement)
 ]
 
-# Display price statistics if the filtered DataFrame is not empty
+# Display line chart of price if the filtered DataFrame is not empty
 if not filtered_df.empty:
-    min_price = filtered_df['price'].min()
-    max_price = filtered_df['price'].max()
-    avg_price = filtered_df['price'].mean()
-
-    # Display results on the screen
-    st.write(f"### Price Statistics After Filtering:")
-    st.write(f"- Minimum Price: {min_price:.2f} SAR")
-    st.write(f"- Maximum Price: {max_price:.2f} SAR")
-    st.write(f"- Average Price: {avg_price:.2f} SAR")
+    # Sort by price to display a smooth line
+    filtered_df = filtered_df.sort_values(by='price')
+    
+    # Create the line chart using Plotly
+    fig = px.line(filtered_df, x=filtered_df.index, y='price', title='تغير السعر')
+    st.plotly_chart(fig)
 else:
-    st.write("No properties match your filter criteria.")
-
+    st.write("لايوجد بيانات")
 
 
