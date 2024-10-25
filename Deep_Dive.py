@@ -30,18 +30,18 @@ basement = st.sidebar.selectbox('Basement', df['basement'].unique())
 
 # Build filter conditions based on user input
 filtered_df = df[
-    (df['location'] == selected_location) &
-    (df['front'] == selected_front) &
+    (df['location'] == selected_location) |
+    (df['front'] == selected_front) |
     #(df['lounges'] == lounges) &
-    (df['streetWidth'] == street_width) &
-    (df['propertyAge'] == property_age) &
-    (df['driverRoom'] == driver_room) &
-    (df['tent'] == tent) &
-    (df['patio'] == patio) &
-    (df['maidRoom'] == maid_room) &
-    (df['elevator'] == elevator) &
-    (df['furnihsed'] == furnished) &
-    (df['pool'] == pool) &
+    (df['streetWidth'] == street_width) |
+    (df['propertyAge'] == property_age) |
+    (df['driverRoom'] == driver_room) |
+    (df['tent'] == tent) |
+    (df['patio'] == patio) |
+    (df['maidRoom'] == maid_room) |
+    (df['elevator'] == elevator) |
+    (df['furnihsed'] == furnished) |
+    (df['pool'] == pool) |
     (df['basement'] == basement)
 ]
 
