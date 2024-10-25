@@ -93,7 +93,7 @@ st.header("حدد خيارات الشارع حول المبنى")
 selected_front = st.selectbox('الخيارات', filtered_df['front'].unique())
 
 # Filter the data based on the selected front
-filtered_df = filtered_df[filtered_df['front'] == selected_front]
+filtered_df = df[df['front'] == selected_front]
 
 # Display the updated line chart after filtering by front
 if not filtered_df.empty:
@@ -108,7 +108,7 @@ st.header("حدد عرض الشارع المقابل")
 street_width = st.sidebar.slider('حدد عرض الشارع المقابل', float(df['streetWidth'].min()), float(df['streetWidth'].max()), 10.0)
 
 # Filter the data based on the number of lounges
-filtered_df = filtered_df[filtered_df['streetWidth'] == street_width]
+filtered_df = df[df['streetWidth'] == street_width]
 
 # Display the updated line chart after filtering by lounges
 if not filtered_df.empty:
