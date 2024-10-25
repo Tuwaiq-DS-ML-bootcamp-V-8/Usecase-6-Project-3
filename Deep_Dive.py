@@ -42,7 +42,7 @@ if not filtered_df.empty:
     fig.update_layout(
     width=800,  # Set the width in pixels
     height=800  # Set the height in pixels
-)
+    )
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
