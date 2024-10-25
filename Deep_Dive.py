@@ -75,7 +75,7 @@ st.title("Riyadh Real Estate Price")
 
 # Step 1: Filter by Location
 st.header("حدد اي منطقة في الرياض")
-selected_location = st.selectbox('منطقة', df['location'].unique())
+selected_location = st.sidebar.selectbox('منطقة', df['location'].unique())
 
 # Filter the data based on the selected location
 filtered_df = df[df['location'] == selected_location]
@@ -83,14 +83,14 @@ filtered_df = df[df['location'] == selected_location]
 # Display the updated line chart after filtering by location
 if not filtered_df.empty:
     filtered_df = filtered_df.sort_values(by='price')
-    fig = px.line(filtered_df, x=filtered_df.index, y='price', title=f'Price Trend for Location: {selected_location}')
+    fig = px.line(filtered_df, x=filtered_df.price.index, y='price', title=f'Price Trend for Location: {selected_location}')
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
 
 # Step 2: Filter by Front
 st.header("حدد خيارات الشارع حول المبنى")
-selected_front = st.selectbox('الخيارات', filtered_df['front'].unique())
+selected_front = st.sidebar.selectbox('الخيارات', filtered_df['front'].unique())
 
 # Filter the data based on the selected front
 filtered_df = df[df['front'] == selected_front]
