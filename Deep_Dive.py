@@ -95,12 +95,11 @@ st.write("اولا, حدد المنطقة في الرياض اللي على اس
 
 filtered_df = df[df['location'] == selected_location]
 
-# Display the updated line chart after filtering by location
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
     st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
-                 title=f'Animated Price Distribution for Location: {selected_location}',
+                 title=f'اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     st.plotly_chart(fig)
 else:
