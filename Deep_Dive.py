@@ -53,7 +53,7 @@ if not filtered_df.empty:
     filtered_df = filtered_df.sort_values(by='price')
     
     # Create the line chart using Plotly
-    fig = px.line(filtered_df, x=filtered_df.price, y='price', title='تغير السعر')
+    fig = px.line(filtered_df, x=filtered_df.price, y='count', title='تغير السعر')
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
