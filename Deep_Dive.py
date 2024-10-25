@@ -4,6 +4,7 @@ import pandas as pd
 # Load the dataset
 df = pd.read_csv('RiyadhVillasAqar.csv')
 
+df.dropna(subset=['price'], inplace=True)
 
 # Streamlit app title
 st.title("Riyadh Real Estate Price")
@@ -30,6 +31,8 @@ basement = st.sidebar.selectbox('Basement', df['basement'].unique())
 
 # Build filter conditions based on user input
 filtered_df = df[
+    (df['price'] < 90000000) &
+    (df['price'] > 1800) &
     (df['location'] == selected_location) &
     (df['front'] == selected_front) &
     #(df['lounges'] == lounges) &
