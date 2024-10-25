@@ -30,7 +30,7 @@ selected_location = st.selectbox('منطقة', df['location'].unique())
 
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
-filtered_df.sort
+
 filtered_df = df[df['location'] == selected_location]
 
 # Display an animated bar chart showing the relationship between location and price
