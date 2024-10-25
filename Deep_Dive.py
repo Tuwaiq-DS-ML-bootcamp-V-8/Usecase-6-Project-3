@@ -98,8 +98,8 @@ filtered_df = df[df['location'] == selected_location]
 # Display the updated line chart after filtering by location
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
-    st.subheader(f"No. Price vs. Location: {selected_location}")
-    fig = px.bar(filtered_df, x='front', y='price', animation_frame='lounges', animation_group='front', 
+    st.subheader(f"Price vs. Location: {selected_location}")
+    fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
                  title=f'Animated Price Distribution for Location: {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     st.plotly_chart(fig)
