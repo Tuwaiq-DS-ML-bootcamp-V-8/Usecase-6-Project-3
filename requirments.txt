@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+ydata_profiling
+python-bidi
+arabic_reshaper
