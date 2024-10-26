@@ -71,7 +71,7 @@ if not filtered_df.empty:
             color="black"
         ),
         title=dict(
-            text=f'اختلاف الاسعار بتغير عاملين واجهة الفه و مساحتها {selected_location}',
+            text=f'اختلاف الاسعار بتغير عاملين واجهة الفله و مساحتها {selected_location}',
             font=dict(size=24, family="Cairo, sans-serif", color="#FF6347")
         ),
         bargap=0.1,
