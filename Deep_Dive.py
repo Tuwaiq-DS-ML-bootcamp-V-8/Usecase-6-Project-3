@@ -35,20 +35,20 @@ st.markdown("""
 st.header("اولا: حدد اي منطقة في الرياض")
 selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
 # Step 2: Sidebar for space (sorted in ascending order)
-sorted_space = sorted(df['space'].unique())  # Sort the space values in ascending order
-selected_space = st.selectbox('حدد مساحة الفله', sorted_space)
+#sorted_space = sorted(df['space'].unique())  # Sort the space values in ascending order
+#selected_space = st.selectbox('حدد مساحة الفله', sorted_space)
 
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
-
-filtered_df = df[ (df['location'] == selected_location) & (df['space'] == selected_space)]
+#& (df['space'] == selected_space)
+filtered_df = df[ (df['location'] == selected_location)]
 
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
     st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
-    fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
-                 title=f'اختلاف الاسعار بتغير عاملين اتجاه المبنى و عرض الشارع {selected_location}',
-                 labels={'price': '', 'front': 'Property Front', 'streetWidth': 'width of street'},
+    fig = px.bar(filtered_df, x='front', y='price', animation_frame='space', animation_group='front', 
+                 title=f'اختلاف الاسعار بتغير عاملين واجهة الفه و مساحتها {selected_location}',
+                 labels={'price': '', 'front': 'واجهة الفله', 'space': 'مساحة الفله'},
                  text='price'  # Add price labels on top of the bars
                  )
     
