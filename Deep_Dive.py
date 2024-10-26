@@ -34,8 +34,9 @@ st.markdown("""
 # Step 1: Filter by Location
 st.header("اولا: حدد اي منطقة في الرياض")
 selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
-# Step 2: Sidebar for space
-selected_space = st.sidebar.selectbox('حدد مساحة الفله', df['space'].unique())
+# Step 2: Sidebar for space (sorted in ascending order)
+sorted_space = sorted(df['space'].unique())  # Sort the space values in ascending order
+selected_space = st.selectbox('حدد مساحة الفله', sorted_space)
 
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
@@ -50,12 +51,7 @@ if not filtered_df.empty:
                  labels={'price': '', 'front': 'Property Front', 'streetWidth': 'width of street'},
                  text='price'  # Add price labels on top of the bars
                  )
-                 
-    # Automatically show the price text on top of each bar
-    # Customize the layout of the chart
-    # Customize the layout: remove y-axis, increase bar height
-    # Price (SAR)
-    # Ensure that the price is shown on top of the bars
+    
     fig.update_traces(texttemplate='%{y:.2f}', textposition='outside')
     fig.update_layout(
     width=800,  # Set the width in pixels
