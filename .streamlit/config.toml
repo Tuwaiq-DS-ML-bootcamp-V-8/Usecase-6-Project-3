@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF6347"  # Tomato color for accents
+backgroundColor = "#F9F9F9"  # Light gray for background
+secondaryBackgroundColor = "#FFFFFF"  # White for widgets
+textColor = "#333333"  # Dark grey for text
+font = "sans serif"
