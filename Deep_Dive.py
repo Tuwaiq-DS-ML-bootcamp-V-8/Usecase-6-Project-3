@@ -9,19 +9,40 @@ df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 
 
 
-# Example of embedding HTML
+# Embed custom fonts for Arabic support
 st.markdown("""
-    <h1 style='text-align: center; color: blue;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
-    <h1>
-            مرحبا
-            
-أن كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&display=swap');
+    body {
+        font-family: 'Amiri', serif;  /* Set Arabic-friendly font */
+    }
+    h1, h2 {
+        font-family: 'Cairo', sans-serif;
+        color: #FF6347;
+    }
+    p {
+        font-size: 18px;
+        color: #333333;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-      بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع  في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.      
-    </h1>
-    <hr>
-    <h2 style='color: black;'>اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط."</h2>
+# Improved layout and text
+st.markdown("""
+ <h1 style='text-align: center; color: blue; font-size: 32px;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
+ <h1 style='font-size: 20px;'>
+            مرحبا
+            <br><br>
+أن كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
+<br><br>
+      بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.      
+ </h1>
+    
+ <h2 style='color: black; font-size: 24px;'>اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط.</h2>
  """, unsafe_allow_html=True)
+
+# Add an image
+st.image("https://via.placeholder.com/800x200?text=Real+Estate+Data+Analysis", use_column_width=True)
 
 
 

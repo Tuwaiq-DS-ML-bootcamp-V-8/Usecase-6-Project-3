@@ -1,6 +1,7 @@
 [theme]
-primaryColor = "#1f77b4"
-backgroundColor = "#f0f2f6"
-secondaryBackgroundColor = "#ffffff"
-textColor = "#333333"
+primaryColor = "#FF6347"  # A bold color for buttons and accent elements
+backgroundColor = "#FAF9F6"  # A soft background color
+secondaryBackgroundColor = "#FFFFFF"  # White background for widgets and sections
+textColor = "#333333"  # Dark text for readability
 font = "sans serif"
+fontFamily = "Amiri, Cairo, Almarai"  # Add Arabic-friendly fonts
