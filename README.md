@@ -19,7 +19,7 @@ The following Exploratory Data Analysis (EDA) steps were applied:
 6. **Visualization of Key Features:**:Plot distributions for numerical features and bar charts for categorical features to get insights.
 
 ## Final Insights and Charts
-1. **Top 10 neighborhoods in Riyadh with the highest average land prices per square meter**:This chart showing "حي حطين" and "حي الياسمين" as the most expensive areas, each exceeding 10,000 SAR per square meter. The chart reveals a clear segmentation in Riyadh’s real estate market, with premium neighborhoods like "حي النخيل," "حي المحمدية," and "حي الزهراء" also commanding high prices, likely due to demand and desirable location features. This suggests that these neighborhoods are attractive for high-end investments, indicating strong demand and potentially limited land availability.
+1. **Top 10 neighborhoods in Riyadh with the highest average land prices per square meter**:This chart shows the top 10 neighborhoods with the highest land prices. It highlights that the most expensive neighborhoods are "Thulaim" and "Al-Yasmeen."
 
    <img width="625" alt="image" src="https://github.com/user-attachments/assets/4212e558-ee20-4755-b5dc-acac0e31a8d4">
 
