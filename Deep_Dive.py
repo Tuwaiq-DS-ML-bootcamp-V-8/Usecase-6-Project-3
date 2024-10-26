@@ -48,15 +48,15 @@ if not filtered_df.empty:
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     # Automatically show the price text on top of each bar
     # Customize the layout of the chart
+    # Customize the layout: remove y-axis, increase bar height
     fig.update_layout(
     width=800,  # Set the width in pixels
     height=600,  # Set the height in pixels
-    uniformtext_minsize=8,  # Set a minimum text size for uniform display
-    uniformtext_mode='hide',  # Hide text if it overlaps
     bargap=0.1,  # Adjust the gap between bars (lower values = wider bars)
     barmode='group',  # Ensures that the bars are grouped together
-    yaxis=dict(showgrid=False, showticklabels=False),  # Hide the y-axis
-    )
+    yaxis=dict(showgrid=False, zeroline=False, showline=False, showticklabels=False),  # Hide y-axis
+    xaxis=dict(tickangle=-45),  # Tilt x-axis labels for better visibility
+)
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
