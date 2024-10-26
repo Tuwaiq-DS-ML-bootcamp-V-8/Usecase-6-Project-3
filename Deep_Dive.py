@@ -5,6 +5,8 @@ import plotly.express as px
 # Load the dataset
 df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 
+st.set_page_config(page_title=' تحليل أسعار الفلل في الرياض ')
+
 # Apply custom CSS for specific elements
 st.markdown("""
     <style>
@@ -24,7 +26,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.set_page_config(page_title=' تحليل أسعار الفلل في الرياض ')
 # Page Title
 st.title("اختلاف اسعار الفلل بأختلاف العوامل")
 
