@@ -29,20 +29,20 @@ st.markdown("""
 
 # Improved layout and text
 st.markdown("""
- <h1 style='text-align: center; color: blue; font-size: 32px;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
- <h1 style='font-size: 20px;'>
+ <h1 style='text-align: center; color: blue; font-size: 35px;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
+ <h1 style='font-size: 26px; text-align: center'>
             مرحبا
-            <br><br>
+            
 أن كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
-<br><br>
+
       بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.      
  </h1>
     
- <h2 style='color: black; font-size: 24px;'>اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط.</h2>
+ <h1 style='color: black; font-size: 26px; text-align: center'>اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط.</h1>
  """, unsafe_allow_html=True)
 
 # Add an image
-st.image("https://via.placeholder.com/800x200?text=Real+Estate+Data+Analysis", use_column_width=True)
+st.image("https://pin.it/7nsRrKVS2", use_column_width=True)
 
 
 
@@ -83,7 +83,7 @@ else:
     st.write("لايوجد بيانات")
 
 st.markdown("""
- <h1>           
+ <h1 style='color: black; font-size: 26px; text-align: center'>           
 بالنهاية
 هذه المقارنة قد تكون بسيطة لكن تظهر أن واجهة المبنى (الفله في تحليلنا) قد تأثر على سعر المبنى اذا ماقارنا فلل بنفس المساحة ونفس المنطقة لكن اتجاه الواجهة يختلف.
 
