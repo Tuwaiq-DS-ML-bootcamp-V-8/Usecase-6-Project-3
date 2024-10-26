@@ -33,7 +33,9 @@ st.markdown("""
 
 # Step 1: Filter by Location
 st.header("اولا: حدد اي منطقة في الرياض")
-selected_location = st.selectbox('منطقة', df['location'].unique())
+selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
+# Step 2: Sidebar for space
+selected_space = st.sidebar.selectbox('حدد مساحة الفله', df['space'].unique())
 
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
