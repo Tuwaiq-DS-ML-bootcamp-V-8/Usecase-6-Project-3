@@ -13,37 +13,33 @@ df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 st.markdown("""
     <h1 style='text-align: center; color: blue;'>اختلاف اسعار الفلل بأختلاف العوامل</h1>
     <h1>
-كلنا نعرف ان سعر الفله او البيت تختلف بأختلاف عوامل كثيرة مثل المنطقة ومساحة الارض وعوامل اخرى مثل 
-عمر المبنى
-وجود حديقة خارجية 
-وجود مسبح 
-الا اخره ....
+            مرحبا
+            
+أن كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
 
-         
-لكن هل فكرت بالعوامل الاخرى مثل عرض الشارع المقابل         
-اتجاه الواجه الامامية 
-
-وكيف راح تأثر على السعر اذا ماقارنا اراضي بنفس المساحة وبنفس المنطقة لكن الشارع المقابل واتجاه الواجهة الامامية يختلف
-</h1>
+      بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع  في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.      
+    </h1>
     <hr>
-    <h2 style='color: green;'>اولا: حدد اي منطقة في الرياض"</h2>
+    <h2 style='color: black;'>اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط."</h2>
     """, unsafe_allow_html=True)
 
 
 
 # Step 1: Filter by Location
-st.header("اولا: حدد اي منطقة في الرياض")
+#st.header("اولا: حدد اي منطقة في الرياض")
 selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
 # Step 2: Sidebar for space (sorted in ascending order)
 #sorted_space = sorted(df['space'].unique())  # Sort the space values in ascending order
 #selected_space = st.selectbox('حدد مساحة الفله', sorted_space)
 
-st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
+st.write("راح تشوف بالاسفل رسم تفاعلي يتغير كلما غيرت بقيم مساحة الارض.")
 
-#& (df['space'] == selected_space)
+st.write("غير قيم المساحة من خلال الشريط اسفل الرسم وشوف كيف يتغير السعر لكل فئة من فئات اتجاه الواجهة")
+
+
 filtered_df = df[ (df['location'] == selected_location)]
 
-# Display an animated bar chart showing the relationship between location and price
+# Display an animated bar chart
 if not filtered_df.empty:
     st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='space', animation_group='front', 
@@ -64,3 +60,12 @@ if not filtered_df.empty:
     st.plotly_chart(fig)
 else:
     st.write("لايوجد بيانات")
+
+st.markdown("""
+بالنهاية...
+هذه المقارنة قد تكون بسيطة لكن تظهر أن واجهة المبنى (الفله في تحليلنا) قد تأثر على سعر المبنى اذا ماقارنا فلل بنفس المساحة ونفس المنطقة لكن اتجاه الواجهة يختلف.
+
+اتجاه الواجهة له اهمية اذا ما تم اختياره بالاتجاه المناسب بناء على موقع المبنى في المدينة.
+
+في تحليلنا، استخدمنا اشهر موقع لبيع العقارات وحصرنا المقارنة على جميع الفلل المعروضة في الموقع.")
+""", unsafe_allow_html=True)
