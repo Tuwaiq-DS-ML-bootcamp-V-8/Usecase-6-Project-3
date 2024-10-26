@@ -46,6 +46,8 @@ if not filtered_df.empty:
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
                  title=f'اختلاف الاسعار بتغير عاملين اتجاه المبنى و عرض الشارع {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
+    # Automatically show the price text on top of each bar
+    fig.update_traces(texttemplate='%{text:.2s}', textposition='outside')
     fig.update_layout(
     width=800,  # Set the width in pixels
     height=600  # Set the height in pixels
