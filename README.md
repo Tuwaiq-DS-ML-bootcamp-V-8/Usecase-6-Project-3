@@ -21,7 +21,7 @@
 
 
 ## 3. Introduction (Problem, Objectives):
-Real estate prices fluctuate due to various factors such as location, building age, and size. However, certain other factors, like the villa’s front orientation and the width of the street in front, might also play a crucial role. In this project, we aim to analyze the impact of these lesser-known factors using real estate data from Riyadh. Our objective is to reveal hidden insights and provide a data-driven analysis of how these elements influence villa prices.
+Real estate prices fluctuate due to various factors such as location, building age, and size. However, certain other factors, like the property’s front orientation and the width of the street in front, might also play a crucial role. In this project, we aim to analyze the impact of these lesser-known factors using real estate data from Riyadh. Our objective is to reveal hidden insights and provide a data-driven analysis of how these elements influence real estate properties.
 
 ## 4. Dataset Overview and Source:
 The dataset used for this analysis come in three different datasets  contains information on apartments, lands and villas in Riyadh. Key variables include:
