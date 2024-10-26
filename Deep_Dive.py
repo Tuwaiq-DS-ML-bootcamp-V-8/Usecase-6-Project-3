@@ -24,6 +24,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+st.set_page_config(page_title=' تحليل أسعار الفلل في الرياض ')
 # Page Title
 st.title("اختلاف اسعار الفلل بأختلاف العوامل")
 
@@ -52,7 +53,7 @@ if not filtered_df.empty:
     #st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='space', animation_group='front',
-                 title=f'اختلاف الاسعار بتغير عاملين واجهة الفه و مساحتها {selected_location}',
+                 title=f'اختلاف الاسعار بتغير عاملين واجهة الفله و مساحتها {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'واجهة الفله', 'space': 'مساحة الفله'},
                  text='price')
     
