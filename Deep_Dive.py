@@ -39,7 +39,7 @@ st.image("image2.png", caption="Real Estate Data", use_column_width=True)
 
 st.write("اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط")
 # Step 1: Filter by Location
-selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
+selected_location = st.selectbox("",df['location'].unique())
 
 st.write("راح تشوف بالاسفل رسم تفاعلي يتغير كلما غيرت بقيم مساحة الارض.")
 st.write("غير قيم المساحة من خلال الشريط اسفل الرسم وشوف كيف يتغير السعر لكل فئة من فئات اتجاه الواجهة")
