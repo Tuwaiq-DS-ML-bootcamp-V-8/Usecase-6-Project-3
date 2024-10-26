@@ -45,7 +45,7 @@ if not filtered_df.empty:
     st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='streetWidth', animation_group='front', 
                  title=f'اختلاف الاسعار بتغير عاملين اتجاه المبنى و عرض الشارع {selected_location}',
-                 labels={'price': '', 'front': 'Property Front', 'streetWidth': 'width of street'}
+                 labels={'price': '', 'front': 'Property Front', 'streetWidth': 'width of street'},
                  text='price'  # Add price labels on top of the bars
                  )
                  
