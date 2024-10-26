@@ -9,8 +9,9 @@ df = pd.read_csv('FilteredRiyadhVillasAqar.csv')
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&display=swap');
-    body {
+    body, html {
         font-family: 'Amiri', serif;  /* Set Arabic-friendly font */
+        direction: RTL;    
     }
     h1, h2 {
         font-family: 'Cairo', sans-serif;
@@ -29,13 +30,14 @@ st.title("اختلاف اسعار الفلل بأختلاف العوامل")
 # Improved layout and text
 st.write("""
     مرحبا
-    أن كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
-    بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.
+     كلنا نعرف أن اسعار الفلل تختلف بأختلاف عوامل كثيرة مثل المنطقة ، عمر المبنى، مساحة الفله وما إلى ذلك.
+    بعد تحليل عميق في إحدى البيانات الخاصة ببيع الفلل من موقع عقار في مدينة الرياض، حبينا نسوي مقارنة مختلفه شوي وهي العلاقة بين سعر الفله وتأثير اتجاه واجهة الفله و موقعها على السعر.
 """)
 
 # Add an image for better visual appeal
 st.image("image2.png", caption="Real Estate Data", use_column_width=True)
 
+st.write("اولاً: خلونا نبدأ نحدد المنطقة بالرياض بالضبط")
 # Step 1: Filter by Location
 selected_location = st.selectbox('حدد المنطقة', df['location'].unique())
 
@@ -47,16 +49,18 @@ filtered_df = df[df['location'] == selected_location]
 
 # Display the bar chart if data is available
 if not filtered_df.empty:
-    st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
+    #st.subheader(f"اختلاف الاسعار في منطقة {selected_location}")
     
     fig = px.bar(filtered_df, x='front', y='price', animation_frame='space', animation_group='front',
                  title=f'اختلاف الاسعار بتغير عاملين واجهة الفه و مساحتها {selected_location}',
                  labels={'price': 'Price (SAR)', 'front': 'واجهة الفله', 'space': 'مساحة الفله'},
                  text='price')
     
-    fig.update_traces(texttemplate='%{y:.2f}', textposition='outside')
+    #fig.update_traces(texttemplate='%{y:.2f}', textposition='outside')
+    fig.update_traces(textposition='outside')
     
     fig.update_layout(
+        yaxis_range= [1000, 10000000],
         width=800,
         height=600,
         font=dict(
@@ -82,6 +86,14 @@ else:
 st.markdown("""
     <h1 style='color: black; font-size: 26px; text-align: center'>           
     بالنهاية
-    هذه المقارنة قد تكون بسيطة لكن تظهر أن واجهة المبنى (الفله في تحليلنا) قد تأثر على سعر المبنى اذا ماقارنا فلل بنفس المساحة ونفس المنطقة لكن اتجاه الواجهة يختلف.
     </h1>
+    <h1>
+            
+هذه المقارنة قد تكون بسيطة لكن تظهر أن واجهة المبنى (الفله في تحليلنا) قد تأثر على سعر المبنى اذا ماقارنا فلل بنفس المساحة ونفس المنطقة لكن اتجاه الواجهة يختلف.
+
+اتجاه الواجهة له اهمية اذا ما تم اختياره بالاتجاه المناسب بناء على موقع المبنى في المدينة.
+
+في تحليلنا، استخدمنا اشهر موقع لبيع العقارات وحصرنا المقارنة على جميع الفلل المعروضة في الموقع.
+   </h1> 
+    
 """, unsafe_allow_html=True)
