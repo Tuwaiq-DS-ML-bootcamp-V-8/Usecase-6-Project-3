@@ -40,7 +40,7 @@ selected_space = st.sidebar.selectbox('حدد مساحة الفله', df['space'
 st.write("اولا, حدد المنطقة في الرياض اللي على اساسها الرسم يظهر اختلاف الاسعار بتغير عامل اتجاه المبنى عرض الشارع")
 
 
-filtered_df = df[df['location'] == selected_location]
+filtered_df = df[ (df['location'] == selected_location) & (df['space'] == selected_space)]
 
 # Display an animated bar chart showing the relationship between location and price
 if not filtered_df.empty:
