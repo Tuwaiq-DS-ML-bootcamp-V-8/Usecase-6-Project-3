@@ -48,7 +48,7 @@ if not filtered_df.empty:
                  labels={'price': 'Price (SAR)', 'front': 'Property Front', 'streetWidth': 'width of street'})
     # Automatically show the price text on top of each bar
     # Automatically show the price text on top of each bar
-    fig.update_traces(texttemplate='%{y:.2f}', textposition='outside')
+    fig.update_traces(texttemplate='%{y:.2f} SAR', textposition='inside')
     fig.update_layout(
     width=800,  # Set the width in pixels
     height=600  # Set the height in pixels
