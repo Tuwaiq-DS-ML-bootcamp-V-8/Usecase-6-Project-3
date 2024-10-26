@@ -1,7 +1,7 @@
 
 
 
-# Real Estate Price Analysis in Riyadh
+# Real Estate Data Analysis in Riyadh
 
 
 
