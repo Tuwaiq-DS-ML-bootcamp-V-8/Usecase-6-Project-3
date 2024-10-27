@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+ydata-profiling
+python-bidi
+arabic_reshaper
+plotly.express
+pillow
