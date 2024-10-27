@@ -3,6 +3,6 @@ pandas
 matplotlib
 seaborn
 scipy
-ydata_profiling
+ydata-profiling
 python-bidi
 arabic_reshaper
