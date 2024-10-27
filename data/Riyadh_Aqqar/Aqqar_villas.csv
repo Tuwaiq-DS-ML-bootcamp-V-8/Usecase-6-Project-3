@@ -1,0 +1,870 @@
+,نوع العقار,المدينة,الحي,الواجهة,عدد الغرف,عدد الصالات,عدد الحمامات,عرض الشارع,المساحة,درج صالة,مطبخ,غرفة خادمة,غرفة سائق,ملحق,حوش,مسبح,قبو,مدخل سيارة,مصعد,السعر الاجمالي
+0,فيلا,الرياض,حي العارض,جنوبية,6,3,5+,-1.0,244.0,True,True,True,True,False,True,False,False,True,True,2300000
+1,فيلا,الرياض,حي العارض,جنوبية,6,4,5+,-1.0,322.0,True,True,True,True,True,True,False,False,True,True,3000000
+2,فيلا,الرياض,حي العارض,جنوبية,3,2,5+,-1.0,350.0,True,False,True,False,True,False,False,True,True,True,2600000
+3,فيلا,الرياض,حي النرجس,جنوبية,4,4,4,-1.0,350.0,True,True,True,False,False,True,False,True,True,True,2600000
+4,فيلا,الرياض,حي العارض,غربية,4,1,5+,-1.0,270.0,True,True,True,True,False,False,False,False,True,False,2800000
+5,فيلا,الرياض,حي النرجس,شمالية,7+,4,5+,-1.0,360.0,True,True,True,True,True,True,False,False,True,False,3500000
+6,فيلا,الرياض,حي الملقا,شرقية,3,3,3,-1.0,437.0,False,True,True,True,False,False,False,False,True,False,4500000
+7,فيلا,الرياض,حي الملقا,شمالية,5,1,5+,-1.0,252.0,True,True,True,True,False,False,False,False,True,True,2800000
+8,فيلا,الرياض,حي النخيل,شمالية غربية,6,3,5+,-1.0,1200.0,True,True,True,True,True,True,True,True,True,True,17000000
+9,فيلا,الرياض,حي الملقا,شرقية,4,3,5+,-1.0,270.0,True,True,True,True,False,True,False,False,True,True,3600000
+10,فيلا,الرياض,حي الملقا,شرقية,6,1,5+,-1.0,250.0,True,True,True,False,True,True,True,True,True,True,2500000
+11,فيلا,الرياض,حي الملقا,جنوبية,6,3,5+,-1.0,600.0,True,True,True,True,True,True,True,False,True,True,8500000
+12,فيلا,الرياض,حي النرجس,شمالية,7+,3,5+,-1.0,225.0,True,False,True,False,False,True,False,False,True,True,3000000
+13,فيلا,الرياض,حي النرجس,شمالية,7+,3,5+,-1.0,225.0,True,False,False,False,False,False,False,False,True,True,3000000
+14,فيلا,الرياض,حي الملقا,شرقية,5,3,5+,-1.0,437.0,True,True,True,True,True,True,False,False,True,True,8500000
+15,فيلا,الرياض,حي النرجس,جنوبية,5,1,4,-1.0,276.0,True,True,True,True,True,True,False,False,True,False,2450000
+16,فيلا,الرياض,حي التعاون,غربية,7+,3,5+,-1.0,359.0,True,True,True,True,True,True,False,False,True,True,3600000
+17,فيلا,الرياض,حي الوادي,غربية,5,3,4,-1.0,375.0,True,True,True,True,False,True,False,False,True,False,2200000
+18,فيلا,الرياض,حي الملقا,شرقية,5,2,5+,-1.0,430.0,True,True,True,True,False,True,False,False,True,True,6000000
+19,فيلا,الرياض,الرياض,شمالية,5,3,5+,-1.0,280.0,True,True,True,True,False,True,False,False,True,True,2650000
+20,فيلا,الرياض,الرياض,جنوبية,4,3,5+,15.0,274.0,True,True,True,True,False,True,True,False,True,True,2600000
+21,فيلا,الرياض,حي النخيل,جنوبية,6,2,5+,-1.0,750.0,True,True,True,True,True,True,True,False,True,False,8000000
+22,فيلا,الرياض,حي العارض,شمالية,6,3,5+,-1.0,500.0,True,True,True,True,True,True,True,False,True,True,5550000
+23,فيلا,الرياض,حي النرجس,شمالية,5,1,5+,-1.0,228.0,True,True,True,False,False,True,False,False,True,False,2550000
+24,فيلا,الرياض,حي الملقا,شمالية غربية,7+,3,5+,-1.0,1200.0,True,True,True,True,True,True,True,False,True,True,18000000
+25,فيلا,الرياض,حي الملقا,شمالية غربية,5,3,5+,-1.0,400.0,True,True,True,True,True,True,True,False,True,True,4900000
+26,فيلا,الرياض,حي جامعة الملك سعود,شمالية غربية,4,3,5+,-1.0,400.0,True,True,True,True,False,True,True,False,True,True,5500000
+27,فيلا,الرياض,حي الملقا,شرقية,5,4,5+,-1.0,500.0,True,True,True,True,True,True,True,False,True,True,7500000
+28,فيلا,الرياض,حي العارض,شمالية,4,3,5+,-1.0,300.0,True,True,True,True,False,False,False,False,True,True,2300000
+29,فيلا,الرياض,حي الربيع,شرقية,7+,4,5+,-1.0,625.0,False,False,False,False,False,False,False,False,False,False,4375000
+30,فيلا,الرياض,حي الملقا,شمالية غربية,5,4,5+,-1.0,620.0,True,True,True,True,True,True,True,False,True,True,10000000
+31,فيلا,الرياض,حي الملقا,غربية,7+,3,5+,-1.0,800.0,True,True,True,True,True,True,True,False,True,False,10000000
+32,فيلا,الرياض,حي الملقا,شرقية,4,3,5+,-1.0,500.0,True,True,True,True,True,True,False,False,True,True,6800000
+33,فيلا,الرياض,حي العارض,غربية,6,2,5+,-1.0,900.0,True,False,True,True,False,True,False,False,True,False,8000000
+34,فيلا,الرياض,حي النرجس,شمالية,5,2,5+,-1.0,312.0,True,False,True,True,False,True,False,False,True,True,2750000
+35,فيلا,الرياض,العيينة,غربية,5,1,4,-1.0,250.0,True,True,True,False,False,True,False,False,True,False,1280000
+36,فيلا,الرياض,حي العقيق,شمالية,5,2,5+,-1.0,375.0,True,True,True,True,True,True,True,False,True,True,4500000
+37,فيلا,الرياض,العيينة,جنوبية,4,1,5+,-1.0,280.0,False,True,False,False,True,False,False,False,False,False,1270000
+38,فيلا,الرياض,حي الملقا,شرقية,5,5,5+,-1.0,430.0,True,True,True,True,False,True,False,False,False,True,6000000
+39,فيلا,الرياض,حي الملقا,شمالية,5,2,5+,-1.0,287.0,True,True,True,True,False,True,False,False,True,True,3600000
+40,فيلا,الرياض,حي الملقا,جنوبية,5,2,5+,-1.0,253.0,True,True,True,True,False,True,False,False,True,True,3400000
+41,فيلا,الرياض,حي الملقا,شرقية,7+,4,5+,-1.0,1750.0,True,False,True,True,True,True,False,False,True,True,22500000
+42,فيلا,الرياض,حي الياسمين,شمالية,4,2,5+,-1.0,420.0,True,False,True,True,False,True,False,False,True,False,3100000
+43,فيلا,الرياض,حي النرجس,شمالية,4,2,5+,-1.0,240.0,True,True,True,True,False,False,False,False,True,True,2750000
+44,فيلا,الرياض,حي النخيل,شرقية,4,3,5+,-1.0,260.0,True,False,True,True,True,True,True,False,True,True,3500000
+45,فيلا,الرياض,حي العارض,شمالية شرقية,4,3,5+,-1.0,221.0,True,True,True,False,True,False,False,False,True,True,2200000
+46,فيلا,الرياض,حي العارض,شمالية,4,3,5+,-1.0,204.0,True,True,True,False,True,False,False,False,True,True,2000000
+47,فيلا,الرياض,حي الوادي,غربية,5,4,5+,-1.0,375.0,True,True,True,True,True,True,False,False,True,False,2200000
+48,فيلا,الرياض,حي العارض,شمالية,6,2,4,-1.0,400.0,True,True,True,False,False,True,False,False,True,False,3800000
+49,فيلا,الرياض,حي النرجس,جنوبية شرقية,4,2,5+,-1.0,315.0,True,True,False,False,False,False,False,False,False,False,2900000
+50,فيلا,الرياض,حي الياسمين,شمالية,5,4,5+,-1.0,660.0,True,True,True,True,True,True,False,False,True,False,8000000
+51,فيلا,الرياض,حي الملقا,شرقية,5,3,5+,-1.0,525.0,True,True,True,True,False,True,True,True,True,True,9000000
+52,فيلا,الرياض,حي النرجس,جنوبية,5,3,5+,-1.0,300.0,True,True,True,True,False,False,True,False,False,True,2950000
+53,فيلا,الرياض,حي العليا,شرقية,5,3,5+,-1.0,260.0,True,False,True,False,True,True,False,False,True,True,2800000
+54,فيلا,الرياض,حي النزهة,شمالية شرقية,7+,2,5+,-1.0,1050.0,True,True,True,True,True,True,False,True,True,True,7800000
+55,فيلا,الرياض,حي الملقا,شرقية,6,2,5+,-1.0,480.0,True,True,True,True,True,True,False,False,True,True,5500000
+56,فيلا,الرياض,حي العارض,جنوبية,5,2,5+,-1.0,360.0,True,True,True,True,True,True,False,False,True,True,2850000
+57,فيلا,الرياض,حي العارض,شمالية,7+,5,5+,-1.0,630.0,False,True,True,False,True,True,False,False,True,False,6050000
+58,فيلا,الرياض,حي التعاون,غربية,4,7+,5+,20.0,420.0,True,True,True,True,False,True,False,False,True,True,5000000
+59,فيلا,الرياض,حي التعاون,شمالية,7+,2,5+,18.0,300.0,True,True,True,True,False,False,False,False,True,True,2850000
+60,فيلا,الرياض,حي العارض,شمالية شرقية,7+,3,5+,-1.0,221.0,True,False,True,True,False,True,False,False,True,True,2200000
+61,فيلا,الرياض,حي العارض,شمالية,7+,3,5+,-1.0,300.0,True,False,True,True,False,True,False,False,True,True,2300000
+62,فيلا,الرياض,حي العارض,شمالية,6,3,5+,-1.0,204.0,True,False,True,False,False,True,False,False,True,True,2000000
+63,فيلا,الرياض,حي النزهة,ثلاث شوارع,7+,4,5+,-1.0,2450.0,True,True,True,True,True,True,True,True,True,False,18000000
+64,فيلا,الرياض,العيينة,غربية,7+,2,5+,-1.0,480.0,False,True,False,False,False,True,False,False,False,False,2300000
+65,فيلا,الرياض,حي العارض,شرقية,5,2,5+,-1.0,510.0,True,True,True,True,True,True,True,False,True,True,4000000
+66,فيلا,الرياض,الرياض,شمالية,5,3,5+,-1.0,280.0,True,True,True,True,False,True,False,False,True,False,2600000
+67,فيلا,الرياض,حي العارض,غربية,4,2,5+,-1.0,200.0,True,False,True,False,False,True,False,False,True,True,2100000
+68,فيلا,الرياض,حي العارض,شمالية,7+,3,5+,-1.0,399.0,False,True,True,True,True,True,False,False,True,False,3500000
+69,فيلا,الرياض,حي الياسمين,جنوبية,5,2,2,-1.0,375.0,True,False,True,True,False,False,False,False,False,False,4600000
+70,فيلا,الرياض,حي النرجس,شرقية,6,2,5+,-1.0,450.0,True,True,True,False,True,True,True,False,True,True,2870000
+71,فيلا,الرياض,حي القيروان,شرقية,4,4,5+,-1.0,300.0,True,True,True,True,False,True,False,False,True,True,3600000
+72,فيلا,الرياض,حي القيروان,جنوبية,5,3,5+,5.0,275.0,True,True,True,True,True,True,False,False,True,True,3600000
+73,فيلا,الرياض,حي النرجس,شمالية,5,2,5+,15.0,330.0,False,True,True,True,False,False,False,False,True,False,3300000
+74,فيلا,الرياض,حي النفل,شرقية,7+,4,5+,-1.0,750.0,False,False,False,False,False,False,False,False,False,True,9500000
+75,فيلا,الرياض,حي النفل,جنوبية,7+,2,5+,-1.0,360.0,True,False,False,False,True,True,False,False,True,True,2850000
+76,فيلا,الرياض,حي النرجس,غربية,5,3,5+,-1.0,225.0,True,True,True,True,False,False,False,False,True,True,2650000
+77,فيلا,الرياض,حي الربيع,شرقية,5,2,5+,-1.0,510.0,True,True,True,False,False,True,False,False,True,False,4000000
+78,فيلا,الرياض,الرياض,شمالية,4,3,5+,-1.0,270.0,True,True,True,False,True,True,False,False,True,False,2450000
+79,فيلا,الرياض,حي النرجس,جنوبية,7+,2,5+,-1.0,425.0,False,False,True,False,False,True,False,False,True,False,3000000
+80,فيلا,الرياض,حي العارض,غربية,4,2,5+,-1.0,200.0,True,False,False,True,False,False,False,False,True,False,2000000
+81,فيلا,الرياض,حي الوادي,شرقية,7+,2,5+,-1.0,750.0,False,True,True,True,True,True,False,False,True,False,5500000
+82,فيلا,الرياض,الرياض,شرقية,4,3,5+,-1.0,460.0,True,True,True,True,False,True,False,True,True,True,4394000
+83,فيلا,الرياض,حي النرجس,غربية,5,3,5+,-1.0,390.0,True,True,True,True,False,True,True,True,True,False,3800000
+84,فيلا,الرياض,العيينة,غربية,7+,2,5+,-1.0,256.0,True,True,True,False,False,True,False,False,True,True,1500000
+85,فيلا,الرياض,حي الربيع,شرقية,7+,3,5+,-1.0,325.0,True,True,True,True,False,True,False,False,True,False,3200000
+86,فيلا,الرياض,حي العليا,جنوبية,6,5,5+,-1.0,1344.0,True,True,True,True,True,True,False,True,True,False,7500000
+87,فيلا,الرياض,حي العليا,شمالية غربية,7+,3,5+,-1.0,900.0,True,True,True,True,True,True,False,False,True,False,6000000
+88,فيلا,الرياض,حي الياسمين,جنوبية,5,2,5+,-1.0,600.0,True,True,True,True,True,False,False,False,True,True,6500000
+89,فيلا,الرياض,حي النزهة,شمالية,5,2,5+,-1.0,313.0,True,True,True,True,False,True,False,False,False,False,2700000
+90,فيلا,الرياض,حي النزهة,شمالية,5,4,5+,-1.0,336.0,True,True,True,True,False,True,False,False,True,False,3500000
+91,فيلا,الرياض,حي العقيق,شرقية,4,2,4,-1.0,400.0,True,True,True,True,True,True,False,True,True,False,3800000
+92,فيلا,الرياض,حي الفلاح,جنوبية,5,4,5+,15.0,400.0,True,True,True,True,True,False,False,False,True,False,4000000
+93,فيلا,الرياض,القرينه,شمالية شرقية,7+,1,4,-1.0,690.0,False,True,True,True,True,True,False,False,True,False,1600000
+94,فيلا,الرياض,حي الياسمين,جنوبية غربية,5,3,5+,-1.0,435.0,True,True,True,True,True,True,False,False,True,False,4000000
+95,فيلا,الرياض,حي العارض,جنوبية,7+,7+,5+,-1.0,405.0,True,True,True,True,True,True,False,False,True,True,3100000
+96,فيلا,الرياض,حي الياسمين,غربية,5,2,5+,-1.0,600.0,True,True,True,True,True,True,False,False,True,False,4500000
+97,فيلا,الرياض,حي العليا,جنوبية غربية,5,3,5+,-1.0,200.0,False,True,False,True,False,False,False,False,False,False,2900000
+98,فيلا,الرياض,حي الياسمين,جنوبية,7+,2,5+,-1.0,260.0,True,True,True,True,False,True,False,False,True,False,2350000
+99,فيلا,الرياض,الرياض,جنوبية,4,2,5+,-1.0,258.0,True,True,True,False,False,True,False,False,True,False,2500000
+100,فيلا,الرياض,حي الرحمانية,غربية,7+,3,5+,8.0,384.0,True,True,True,True,False,True,True,True,True,False,3500000
+101,فيلا,الرياض,حي النزهة,غربية,3,2,5+,-1.0,256.0,True,True,True,True,False,False,False,False,True,False,1650000
+102,فيلا,الرياض,حي النرجس,غربية,5,3,5+,-1.0,300.0,True,False,True,True,False,False,False,False,False,False,2800000
+103,فيلا,الرياض,حي النرجس,جنوبية غربية,4,2,5+,-1.0,234.0,True,False,True,True,False,False,False,False,False,False,2300000
+104,فيلا,الرياض,حي النرجس,جنوبية,3,2,5+,-1.0,273.0,True,False,True,False,False,False,False,False,False,False,2700000
+105,فيلا,الرياض,حي العارض,شمالية,6,1,4,-1.0,600.0,False,True,True,True,False,False,False,False,True,False,3000000
+106,فيلا,الرياض,حي الوادي,جنوبية,4,2,5+,-1.0,250.0,True,False,True,True,False,False,False,False,True,False,3000000
+107,فيلا,الرياض,حي المصيف,جنوبية,6,2,5+,-1.0,299.0,True,False,True,True,False,False,False,False,True,False,3400000
+108,فيلا,الرياض,حي العليا,شمالية,7+,2,5+,-1.0,442.0,True,True,True,True,True,False,False,True,True,False,2500000
+109,فيلا,الرياض,حي العارض,غربية,4,3,5+,-1.0,300.0,True,False,True,False,True,False,False,False,False,False,2800000
+110,فيلا,الرياض,حي الملقا,شرقية,4,2,5+,-1.0,375.0,True,True,True,True,True,True,False,False,True,True,4300000
+111,فيلا,الرياض,حي العليا,شمالية,7+,2,5+,-1.0,442.0,True,True,True,True,True,True,False,False,True,False,2600000
+112,فيلا,الرياض,حي النرجس,غربية,5,3,5+,-1.0,375.0,True,False,True,True,False,False,False,False,False,False,4400000
+113,فيلا,الرياض,الرياض,جنوبية,6,3,5+,-1.0,270.0,True,False,True,False,False,False,False,False,False,False,2500000
+114,فيلا,الرياض,حي العارض,شمالية,5,3,5+,-1.0,300.0,True,False,True,True,False,False,False,False,True,False,2500000
+115,فيلا,الرياض,العيينة,جنوبية,7+,5,5+,-1.0,406.0,False,True,False,False,False,True,False,False,False,False,1350000
+116,فيلا,الرياض,حي الفلاح,جنوبية,5,2,5+,-1.0,392.0,True,True,True,True,True,True,False,False,True,False,4500000
+117,فيلا,الرياض,حي النرجس,غربية,6,2,5+,-1.0,477.0,True,True,True,True,True,True,True,False,True,False,4000000
+118,فيلا,الرياض,حي الياسمين,جنوبية,5,3,5+,-1.0,375.0,True,True,True,True,False,True,True,False,True,True,4200000
+119,فيلا,الرياض,حي العارض,شمالية,5,2,5+,-1.0,360.0,True,True,True,True,True,False,False,False,True,True,2900000
+120,فيلا,الرياض,الرياض,شمالية,4,3,5+,-1.0,390.0,False,True,True,True,False,True,False,False,True,False,3200000
+121,فيلا,الرياض,حي النرجس,شمالية,5,2,5+,-1.0,324.0,True,True,True,True,False,True,False,False,True,False,2350000
+122,فيلا,الرياض,حي الندى,غربية,7+,4,5+,-1.0,2500.0,False,True,False,False,False,False,False,False,True,False,16700000
+123,فيلا,الرياض,حي النزهة,شرقية,4,2,4,-1.0,607.0,True,True,True,True,True,True,False,False,True,False,3300000
+124,فيلا,الرياض,حي التعاون,شرقية,5,2,5+,-1.0,375.0,False,True,True,True,True,True,False,False,True,True,4350000
+125,فيلا,الرياض,حي الملقا,شمالية,7+,3,5+,-1.0,200.0,False,False,False,False,False,False,False,False,False,False,2600000
+126,فيلا,الرياض,حي العارض,شرقية,7+,5,5+,-1.0,690.0,True,True,True,False,True,True,False,False,True,False,4600000
+127,فيلا,الرياض,حي المصيف,شمالية,7+,2,5+,-1.0,570.0,False,True,True,True,True,True,False,False,True,False,3000000
+129,فيلا,الرياض,حي الصحافة,جنوبية,5,2,5+,-1.0,375.0,True,True,True,True,True,True,True,False,True,False,2750000
+130,فيلا,الرياض,حي الملقا,شمالية غربية,5,3,5+,-1.0,687.0,True,True,True,True,True,True,False,True,True,True,9000000
+131,فيلا,الرياض,حي العارض,شرقية,5,5,5+,-1.0,335.0,True,True,True,False,True,True,False,False,True,False,3150000
+132,فيلا,الرياض,حي المحمدية,شمالية,5,2,5+,-1.0,360.0,True,True,True,True,False,False,False,False,True,False,2700000
+133,فيلا,الرياض,حي العارض,شرقية,4,3,5+,-1.0,300.0,True,True,True,True,False,True,False,False,True,True,3300000
+134,فيلا,الرياض,حي القيروان,جنوبية,7+,3,5+,-1.0,420.0,True,True,True,True,True,True,False,False,True,True,4500000
+135,فيلا,الرياض,حي الندى,جنوبية غربية,4,3,5+,-1.0,420.0,True,True,True,True,False,False,True,False,True,True,3500000
+136,فيلا,الرياض,حي الوادي,شمالية,4,1,3,-1.0,209.0,True,False,True,False,False,True,False,False,True,False,2600000
+137,فيلا,الرياض,حي العارض,غربية,5,2,5+,-1.0,200.0,True,False,True,False,False,False,False,False,False,False,2100000
+138,فيلا,الرياض,العيينة,شرقية,4,1,5+,-1.0,535.0,True,True,True,False,True,True,False,False,True,False,1900000
+139,فيلا,الرياض,حي العقيق,جنوبية,7+,2,5+,-1.0,425.0,True,False,True,True,False,True,False,False,True,False,3200000
+140,فيلا,الرياض,العيينة,جنوبية,7+,2,5+,-1.0,405.0,True,True,True,False,True,True,False,False,True,False,2030000
+141,فيلا,الرياض,حي العارض,شمالية,5,2,5+,-1.0,375.0,True,True,True,False,True,True,False,False,True,False,3000000
+142,فيلا,الرياض,حي النفل,غربية,5,2,4,-1.0,324.0,True,True,True,False,True,True,False,False,True,False,2500000
+143,فيلا,الرياض,حي النفل,غربية,6,2,5+,-1.0,360.0,True,True,True,True,True,True,True,False,True,True,4390000
+144,فيلا,الرياض,حي الياسمين,غربية,5,4,5+,-1.0,350.0,True,True,True,True,False,True,True,True,True,True,4700000
+145,فيلا,الرياض,حي العارض,جنوبية,5,3,5+,-1.0,308.0,True,True,False,False,False,False,False,False,False,False,2600000
+146,فيلا,الرياض,الرياض,شرقية,2,3,5+,-1.0,375.0,False,True,True,True,False,True,False,False,True,False,3100000
+147,فيلا,الرياض,حي التعاون,شرقية,4,1,5+,-1.0,220.0,True,True,True,True,False,True,False,False,True,False,2712320
+148,فيلا,الرياض,حي النخيل,شمالية,4,2,5+,15.0,630.0,True,True,True,True,False,True,True,True,True,False,7300000
+149,فيلا,الرياض,حي النرجس,شرقية,6,3,5+,20.0,625.0,True,True,True,True,False,True,False,False,True,True,6500000
+150,فيلا,الرياض,حي النرجس,جنوبية,7+,3,5+,20.0,406.0,True,True,True,True,True,True,False,False,True,False,4200000
+151,فيلا,الرياض,حي النرجس,غربية,4,2,5+,15.0,202.0,True,True,True,False,True,True,False,False,True,True,2100000
+152,فيلا,الرياض,الرياض,شمالية,6,2,5+,20.0,395.0,True,True,True,True,True,True,False,False,True,False,3500000
+153,فيلا,الرياض,حي النرجس,شمالية,5,2,5+,20.0,312.0,False,True,False,False,False,False,False,False,False,False,3500000
+154,فيلا,الرياض,حي العليا,شمالية,5,2,5+,10.0,540.0,True,True,True,True,True,True,True,False,True,False,3000000
+155,فيلا,الرياض,حي الصحافة,شمالية,6,2,5+,15.0,375.0,True,True,True,True,True,True,False,False,True,True,4880000
+156,فيلا,الرياض,حي العارض,شمالية,5,2,5+,30.0,483.0,True,True,True,True,True,True,True,False,True,False,3900000
+157,فيلا,الرياض,حي المروج,جنوبية,5,3,5+,20.0,350.0,True,True,True,True,True,True,False,False,True,True,4000000
+158,فيلا,الرياض,العيينة,شرقية,7+,3,5+,20.0,500.0,True,True,True,True,True,True,True,False,True,True,5300000
+159,فيلا,الرياض,حي العقيق,شمالية,5,2,5+,15.0,312.0,True,True,True,True,True,True,False,False,True,True,3600000
+160,فيلا,الرياض,العيينة,شرقية,4,2,5+,15.0,500.0,True,True,True,False,False,True,False,False,True,True,1400000
+161,فيلا,الرياض,حي الملقا,شمالية,5,3,5+,15.0,540.0,True,True,True,True,True,True,False,False,True,False,5500000
+162,فيلا,الرياض,حي المروج,شمالية,4,1,4,15.0,312.0,False,True,True,True,False,True,False,False,True,False,2000000
+163,فيلا,الرياض,حي الياسمين,جنوبية غربية,3,3,3,20.0,370.0,True,True,False,True,False,True,False,False,True,False,3250000
+164,فيلا,الرياض,حي النرجس,جنوبية,7+,2,5+,15.0,250.0,True,True,True,False,False,True,False,False,True,True,2500000
+165,فيلا,الرياض,حي النرجس,شمالية,6,2,5+,15.0,254.0,True,True,False,False,True,True,False,False,True,False,2450000
+166,فيلا,الرياض,حي الفلاح,غربية,5,3,5+,20.0,520.0,True,True,True,True,False,True,True,False,True,True,6500000
+167,فيلا,الرياض,حي الرحمانية,شمالية,4,2,5+,20.0,300.0,True,True,True,True,False,True,False,False,True,True,4500000
+168,فيلا,الرياض,حي الملقا,شمالية شرقية,5,2,5+,25.0,600.0,True,True,True,True,True,True,True,False,True,True,6500000
+169,فيلا,الرياض,حي القيروان,جنوبية,5,2,5+,20.0,457.0,True,True,True,True,False,True,False,False,True,True,5200000
+170,فيلا,الرياض,حي الملقا,جنوبية,5,2,5+,15.0,343.0,True,True,True,True,False,True,False,False,True,True,4600000
+171,فيلا,الرياض,حي النرجس,شمالية,5,3,5+,15.0,250.0,True,True,True,False,False,True,False,False,False,False,2600000
+172,فيلا,الرياض,حي حطين,شمالية,7+,2,5+,15.0,500.0,True,True,True,True,True,True,False,False,True,False,6300000
+173,فيلا,الرياض,حي القيروان,شمالية,5,3,5+,20.0,360.0,True,True,True,True,True,True,False,False,True,True,4300000
+174,فيلا,الرياض,حي القيروان,شمالية,4,5,5+,15.0,360.0,False,True,True,True,True,True,False,False,True,True,3800000
+175,فيلا,الرياض,العيينة,ثلاث شوارع,7+,2,4,-1.0,565.0,True,True,False,True,True,False,False,False,True,False,2000000
+176,فيلا,الرياض,حي الملك فهد,جنوبية غربية,6,2,5+,20.0,625.0,True,True,True,True,False,False,False,False,False,False,3400000
+177,فيلا,الرياض,الرياض,جنوبية,4,3,5+,20.0,250.0,True,True,True,False,True,True,False,False,True,False,2350000
+178,فيلا,الرياض,حي المروج,جنوبية,3,2,4,15.0,300.0,False,True,True,False,False,True,False,False,False,False,2200000
+179,فيلا,الرياض,حي العارض,جنوبية,4,3,5+,20.0,336.0,False,True,True,False,True,True,True,False,True,True,2750000
+180,فيلا,الرياض,حي الملقا,شمالية,3,1,3,21.0,252.0,True,True,False,False,False,False,False,False,False,True,3200000
+181,فيلا,الرياض,حي العليا,غربية,4,1,5+,12.0,210.0,True,True,True,False,False,True,False,False,True,False,2400000
+182,فيلا,الرياض,حي النرجس,شمالية شرقية,5,4,5+,15.0,344.0,True,True,True,True,True,True,True,False,True,True,4200000
+183,فيلا,الرياض,حي العارض,جنوبية شرقية,7+,5,5+,15.0,352.0,True,True,True,True,True,True,True,False,True,True,4000000
+184,فيلا,الرياض,حي النرجس,غربية,4,2,4,20.0,300.0,True,True,True,False,False,True,False,False,True,False,3000000
+185,فيلا,الرياض,حي الملك فهد,شمالية شرقية,6,2,5+,20.0,420.0,False,True,True,True,True,True,False,False,True,False,2400000
+186,فيلا,الرياض,حي العارض,جنوبية,5,2,5+,20.0,338.0,True,True,True,True,False,True,False,False,True,True,2800000
+187,فيلا,الرياض,حي النرجس,غربية,5,3,5+,15.0,325.0,False,True,True,True,False,True,False,False,True,True,3300000
+188,فيلا,الرياض,حي الملقا,شمالية,6,5,5+,20.0,450.0,True,True,True,True,True,True,False,False,True,True,5500000
+189,فيلا,الرياض,حي النرجس,غربية,6,3,5+,15.0,360.0,True,True,True,False,True,True,False,False,True,True,3550000
+190,فيلا,الرياض,حي النرجس,شمالية غربية,4,1,4,15.0,210.0,True,True,True,True,True,True,False,False,True,True,2300000
+191,فيلا,الرياض,الرياض,شمالية,5,4,5+,10.0,239.0,True,True,True,True,True,True,False,False,True,True,3499000
+192,فيلا,الرياض,حي صلاح الدين,غربية,5,5,5+,12.0,699.0,False,True,True,True,True,True,True,True,True,True,7500000
+193,فيلا,الرياض,حي النرجس,شمالية,5,3,5+,25.0,813.0,True,True,True,True,True,True,True,False,True,True,14000000
+194,فيلا,الرياض,حي الملقا,شرقية,5,2,5+,20.0,375.0,True,True,True,True,False,True,False,False,True,False,3200000
+195,فيلا,الرياض,حي الندى,غربية,5,3,5+,15.0,300.0,False,True,True,True,False,True,True,True,True,False,3600000
+196,فيلا,الرياض,حي النفل,شمالية غربية,7+,2,5+,20.0,450.0,True,True,True,True,True,True,False,True,True,False,4000000
+197,فيلا,الرياض,حي النرجس,جنوبية,6,2,5+,15.0,375.0,True,True,True,True,True,True,True,False,True,True,3650000
+198,فيلا,الرياض,حي النرجس,جنوبية,5,4,5+,25.0,360.0,True,True,True,True,True,True,False,False,True,True,4200000
+199,فيلا,الرياض,العيينة,شرقية,5,4,5+,20.0,250.0,True,True,True,False,False,True,False,False,True,False,1600000
+200,فيلا,الرياض,حي العارض,جنوبية,3,2,5+,15.0,216.0,True,True,True,False,False,True,False,False,True,True,2100000
+201,فيلا,الرياض,حي العارض,غربية,7+,3,5+,15.0,360.0,True,True,True,True,True,True,False,False,True,False,2800000
+202,فيلا,الرياض,حي العارض,جنوبية,5,5,5+,15.0,375.0,True,True,True,True,False,True,False,False,True,False,3000000
+203,فيلا,الرياض,حي الندى,شمالية شرقية,6,3,5+,12.0,525.0,True,True,True,False,True,True,True,True,True,True,5700000
+204,فيلا,الرياض,حي العليا,جنوبية غربية,4,1,5+,12.0,252.0,True,True,True,False,False,True,False,False,True,False,2600000
+205,فيلا,الرياض,الرياض,جنوبية,7+,2,5+,14.0,501.0,True,True,True,True,True,True,False,False,True,False,4300000
+206,فيلا,الرياض,حي الياسمين,شمالية,5,2,5+,15.0,437.0,True,True,True,True,True,True,True,False,True,True,4200000
+207,فيلا,الرياض,حي النرجس,شرقية,5,2,5+,15.0,270.0,True,True,True,False,False,True,False,False,True,True,2700000
+208,فيلا,الرياض,الرياض,جنوبية غربية,4,2,5+,15.0,450.0,True,True,True,True,True,True,True,False,True,True,4000000
+209,فيلا,الرياض,حي الياسمين,شمالية شرقية,7+,3,5+,15.0,1107.0,True,True,True,True,True,True,False,True,True,True,10300000
+210,فيلا,الرياض,حي التعاون,جنوبية,5,2,5+,15.0,312.0,True,True,True,True,False,True,False,False,True,False,2700000
+211,فيلا,الرياض,حي العليا,جنوبية غربية,7+,2,5+,12.0,900.0,True,True,True,True,True,True,False,False,True,False,5000000
+212,فيلا,الرياض,حي المحمدية,غربية,4,1,5+,20.0,420.0,True,True,True,True,True,True,True,False,True,True,5800000
+213,فيلا,الرياض,شارع سعيد السلمي,شرقية,5,3,5+,15.0,750.0,True,True,True,True,True,True,True,False,True,True,8200000
+214,فيلا,الرياض,حي الملك فهد,جنوبية غربية,5,3,5+,20.0,960.0,True,True,True,True,True,True,False,False,True,False,6500000
+215,فيلا,الرياض,حي الملقا,شمالية,6,2,5+,5.0,360.0,False,True,False,False,False,False,False,False,False,False,4700000
+216,فيلا,الرياض,حي النرجس,شمالية,5,3,5+,20.0,300.0,True,True,True,False,True,True,False,False,True,True,2600000
+217,فيلا,الرياض,حي النرجس,غربية,5,2,4,25.0,375.0,True,True,True,True,True,True,False,False,True,True,4200000
+218,فيلا,الرياض,حي الياسمين,شمالية,5,3,5+,15.0,405.0,True,True,True,True,True,False,False,False,True,False,3600000
+219,فيلا,الرياض,حي الياسمين,جنوبية,6,2,5+,15.0,375.0,True,True,True,True,True,True,False,False,True,True,2850000
+220,فيلا,الرياض,حي الياسمين,شمالية,7+,2,5+,15.0,375.0,True,True,True,False,True,True,False,False,True,False,3500000
+221,فيلا,الرياض,حي حطين,جنوبية,7+,5,5+,15.0,450.0,True,True,True,False,True,True,False,True,True,True,5250000
+222,فيلا,الرياض,حي حطين,جنوبية,5,2,5+,15.0,351.0,True,True,True,False,True,True,False,False,True,True,3750000
+223,فيلا,الرياض,حي حطين,غربية,5,3,5+,18.0,250.0,True,True,True,False,False,False,False,False,True,True,2500000
+224,فيلا,الرياض,حي النرجس,شرقية,5,2,4,15.0,360.0,True,True,True,False,True,True,False,False,True,True,3650000
+225,فيلا,الرياض,الرياض,شمالية,5,2,5+,14.0,420.0,True,True,True,True,False,True,False,False,True,False,3200000
+226,فيلا,الرياض,حي الياسمين,جنوبية,4,2,5+,20.0,375.0,False,True,True,True,False,True,False,False,True,True,4200000
+227,فيلا,الرياض,حي النرجس,شمالية,6,3,5+,15.0,390.0,False,True,True,False,True,True,False,False,True,False,3900000
+228,فيلا,الرياض,حي النخيل,شمالية,6,5,5+,5.0,525.0,True,True,True,False,False,True,True,True,True,False,5000000
+229,فيلا,الرياض,حي التعاون,شمالية غربية,3,7+,5+,20.0,480.0,True,True,True,True,False,True,False,False,True,True,5800000
+230,فيلا,الرياض,حي التعاون,غربية,5,2,5+,20.0,200.0,True,True,True,True,False,True,False,False,True,False,2350000
+231,فيلا,الرياض,حي حطين,غربية,5,4,5+,15.0,505.0,True,True,True,True,True,True,True,True,True,True,8300000
+232,فيلا,الرياض,حي العارض,جنوبية,5,5,5+,15.0,350.0,True,True,True,True,True,True,False,False,True,False,2600000
+233,فيلا,الرياض,حي العارض,جنوبية,5,3,5+,15.0,300.0,True,True,True,False,True,True,False,False,True,True,2500000
+234,فيلا,الرياض,حي العارض,جنوبية,7+,3,5+,20.0,675.0,True,True,True,True,True,True,True,False,True,True,5500000
+235,فيلا,الرياض,حي المصيف,شرقية,6,2,5+,20.0,820.0,True,True,True,True,True,True,True,False,True,False,5000000
+236,فيلا,الرياض,حي الملقا,شمالية,6,3,5+,20.0,450.0,True,True,True,True,False,False,False,False,True,True,4800000
+237,فيلا,الرياض,حي النرجس,جنوبية شرقية,7+,2,5+,15.0,300.0,True,True,True,True,False,True,False,False,True,True,3100000
+238,فيلا,الرياض,حي النرجس,شمالية غربية,4,2,5+,20.0,247.0,True,True,True,True,False,False,False,False,True,False,2400000
+239,فيلا,الرياض,حي الصحافة,شرقية,5,1,5+,15.0,600.0,False,True,True,True,True,True,False,False,True,False,4500000
+240,فيلا,الرياض,العيينة,غربية,7+,2,5+,15.0,500.0,True,True,True,False,False,True,False,False,True,False,1500000
+241,فيلا,الرياض,حي النرجس,جنوبية غربية,6,3,5+,15.0,620.0,True,True,True,True,True,True,True,True,True,True,7000000
+242,فيلا,الرياض,الرياض,جنوبية,7+,2,5+,15.0,300.0,True,True,True,True,True,True,False,False,True,False,2800000
+243,فيلا,الرياض,حي الصحافة,شمالية,6,2,5+,15.0,375.0,True,True,True,True,True,False,False,False,True,True,4880000
+244,فيلا,الرياض,العيينة,شمالية,3,3,3,-1.0,193.0,False,True,False,True,False,True,False,False,True,False,950000
+245,فيلا,الرياض,حي الوادي,غربية,5,3,5+,-1.0,375.0,True,True,True,True,False,False,False,False,True,False,2200000
+246,فيلا,الرياض,حي النرجس,شمالية,5,2,5+,15.0,312.0,True,True,True,False,True,False,False,False,True,False,2550000
+247,فيلا,الرياض,حي النرجس,شمالية,5,3,5+,17.0,240.0,True,True,True,False,False,True,False,False,True,True,2700000
+248,فيلا,الرياض,حي النخيل,جنوبية شرقية,7+,2,5+,30.0,1825.0,True,True,True,True,True,True,True,True,True,False,20000000
+249,فيلا,الرياض,الرياض,شرقية,4,1,3,-1.0,180.0,False,True,False,False,False,False,False,False,True,False,1100000
+250,فيلا,الرياض,الرياض,شمالية,3,1,4,40.0,236.0,True,True,False,False,False,False,False,False,False,False,1070000
+251,فيلا,الرياض,حي المونسية,غربية,4,4,4,-1.0,300.0,True,True,False,False,False,False,False,False,False,True,2250000
+252,فيلا,الرياض,حي المونسية,غربية,4,2,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,True,2200000
+253,فيلا,الرياض,حي القدس,شمالية,6,2,5+,-1.0,900.0,True,True,True,True,True,True,True,False,True,False,4800000
+254,فيلا,الرياض,حي القدس,شمالية,5,5,5+,-1.0,900.0,True,True,False,False,True,True,True,False,True,False,4700000
+255,فيلا,الرياض,حي الخليج,غربية,5,2,4,-1.0,324.0,True,True,True,True,True,True,False,False,True,False,2200000
+256,فيلا,الرياض,حي الرمال,شمالية,7+,1,5+,-1.0,281.0,False,False,False,False,False,False,False,False,False,False,1400000
+257,فيلا,الرياض,حي النسيم الغربي,شرقية,5,2,3,-1.0,312.0,False,True,False,False,False,True,False,False,True,False,1070000
+258,فيلا,الرياض,حي الريان,جنوبية,7+,2,5+,15.0,360.0,True,True,True,True,True,False,True,False,True,False,4400000
+259,فيلا,الرياض,حي الروضة,جنوبية,5,2,5+,-1.0,900.0,True,False,False,False,False,False,False,False,False,False,5200000
+260,فيلا,الرياض,حي المونسية,جنوبية,6,2,4,-1.0,319.0,True,True,True,True,True,True,False,False,True,True,3150000
+261,فيلا,الرياض,حي الرمال,جنوبية,7+,3,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,False,2000000
+262,فيلا,الرياض,حي الرمال,جنوبية,7+,3,5+,-1.0,319.0,True,True,True,False,True,True,False,False,True,False,2100000
+263,فيلا,الرياض,حي الحمراء,جنوبية,5,2,1,-1.0,750.0,True,True,True,True,True,True,False,False,True,False,4000000
+264,فيلا,الرياض,حي النسيم الشرقي,غربية,7+,2,5+,-1.0,480.0,False,True,True,False,True,True,False,False,True,False,1200000
+265,فيلا,الرياض,حي الرمال,شمالية,4,1,5+,-1.0,375.0,True,True,True,False,True,False,False,False,True,True,2450000
+266,فيلا,الرياض,حي اشبيلية,شمالية,6,2,4,-1.0,500.0,False,True,False,False,True,True,False,False,False,False,3000000
+267,فيلا,الرياض,حي النهضة,شمالية,7+,5,5+,-1.0,495.0,True,True,False,False,False,True,False,False,False,False,1700000
+268,فيلا,الرياض,حي النهضة,غربية,5,2,5+,-1.0,324.0,True,False,True,False,True,True,False,False,True,False,1900000
+269,فيلا,الرياض,حي القادسية,جنوبية,6,2,5+,-1.0,365.0,True,False,False,False,False,False,False,False,True,False,2300000
+270,فيلا,الرياض,حي اشبيلية,شرقية,5,1,5+,-1.0,388.0,True,True,True,True,False,True,False,False,True,False,2200000
+271,فيلا,الرياض,حي النسيم الشرقي,غربية,7+,3,5+,-1.0,480.0,False,True,False,False,False,False,False,False,False,False,1200000
+272,فيلا,الرياض,حي قرطبة,شمالية,5,2,5+,-1.0,225.0,True,True,True,False,True,True,False,False,True,False,2450000
+273,فيلا,الرياض,حي الرمال,شمالية شرقية,6,2,5+,-1.0,404.0,True,False,False,True,True,True,False,True,True,True,2500000
+274,فيلا,الرياض,حي الحمراء,جنوبية,7+,4,5+,-1.0,580.0,True,True,True,True,True,True,True,False,True,True,5400000
+275,فيلا,الرياض,حي المونسية,غربية,4,2,4,-1.0,300.0,True,True,False,False,True,True,False,False,True,True,2300000
+276,فيلا,الرياض,حي المونسية,جنوبية غربية,5,2,4,-1.0,480.0,True,True,True,False,True,True,True,False,True,True,5000000
+277,فيلا,الرياض,حي النسيم الغربي,جنوبية,5,2,5+,12.0,250.0,True,True,False,False,True,True,False,False,True,False,1250000
+278,فيلا,الرياض,حي المونسية,غربية,4,2,4,-1.0,300.0,True,True,True,False,True,True,False,False,True,True,2300000
+279,فيلا,الرياض,حي اليرموك,شرقية,3,2,2,-1.0,520.0,False,True,True,False,True,True,False,False,True,False,2400000
+280,فيلا,الرياض,حي الملك فيصل,شمالية شرقية,7+,2,1,-1.0,875.0,True,False,False,False,False,False,False,False,False,False,4500000
+281,فيلا,الرياض,حي الصفا,شمالية,5,3,5+,-1.0,735.0,True,True,True,True,True,True,False,False,True,False,2000000
+282,فيلا,الرياض,حي النظيم,جنوبية,4,4,3,-1.0,500.0,True,True,False,False,True,True,False,False,True,False,1550000
+283,فيلا,الرياض,حي النظيم,جنوبية,1,2,3,-1.0,500.0,False,True,False,False,False,False,False,False,False,False,1550000
+284,فيلا,الرياض,حي الرمال,غربية,7+,2,5+,20.0,266.0,True,True,True,False,False,True,False,False,True,False,1465000
+285,فيلا,الرياض,حي النسيم الشرقي,شمالية,7+,2,5+,-1.0,483.0,False,True,True,True,True,True,False,False,True,False,1700000
+286,فيلا,الرياض,حي الحمراء,شرقية,7+,2,5+,-1.0,618.0,True,True,True,True,True,True,True,False,True,True,4500000
+287,فيلا,الرياض,حي النهضة,جنوبية,4,1,2,-1.0,400.0,False,True,True,True,False,True,False,False,False,False,1300000
+288,فيلا,الرياض,حي اليرموك,جنوبية,6,1,3,-1.0,400.0,False,False,True,True,False,True,False,False,True,False,2000000
+289,فيلا,الرياض,حي المونسية,شمالية,6,4,4,-1.0,362.0,False,True,True,True,True,True,False,False,True,False,1990000
+290,فيلا,الرياض,شارع جبل مره,جنوبية,7+,3,5+,-1.0,450.0,False,True,True,True,False,True,False,False,True,False,2600000
+291,فيلا,الرياض,حي المونسية,شمالية,5,2,5+,-1.0,400.0,True,True,True,True,False,True,False,False,True,False,2850000
+292,فيلا,الرياض,حي اشبيلية,شرقية,5,2,5+,-1.0,430.0,True,True,True,True,True,True,False,False,True,False,2100000
+293,فيلا,الرياض,حي القدس,شمالية,4,2,5+,-1.0,450.0,True,True,True,True,False,True,False,True,True,False,3000000
+294,فيلا,الرياض,حي المونسية,شرقية,5,3,4,-1.0,308.0,True,False,True,False,True,True,False,False,True,True,2650000
+295,فيلا,الرياض,حي البيان,جنوبية,1,2,5+,-1.0,359.0,True,True,False,False,True,True,False,False,True,False,1650000
+296,فيلا,الرياض,حي الرمال,غربية,6,2,5+,-1.0,280.0,True,False,True,False,False,False,False,False,False,False,1550000
+297,فيلا,الرياض,حي الرمال,شرقية,5,4,5+,-1.0,430.0,False,True,False,False,True,True,False,False,True,False,2500000
+298,فيلا,الرياض,حي اليرموك,شرقية,7+,1,5+,-1.0,288.0,True,True,True,False,True,True,False,False,True,False,1800000
+299,فيلا,الرياض,حي السعادة,جنوبية,6,2,5+,-1.0,200.0,True,True,False,False,False,True,False,False,True,True,1680000
+300,فيلا,الرياض,حي المونسية,شمالية,7+,4,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,True,2490000
+301,فيلا,الرياض,حي الاندلس,شرقية,5,2,5+,-1.0,437.0,True,True,True,True,False,True,False,False,True,False,3500000
+302,فيلا,الرياض,حي اليرموك,جنوبية شرقية,7+,3,5+,-1.0,336.0,True,True,True,True,True,True,False,False,True,False,2200000
+303,فيلا,الرياض,حي اليرموك,شمالية,5,2,5+,-1.0,312.0,True,True,True,True,True,True,False,False,True,True,2450000
+304,فيلا,الرياض,حي اليرموك,جنوبية,4,2,4,-1.0,250.0,True,False,False,False,True,True,False,False,True,False,2000000
+305,فيلا,الرياض,حي القدس,غربية,4,2,4,15.0,149.0,True,True,False,False,False,True,False,False,True,True,1750000
+306,فيلا,الرياض,حي الرمال,شمالية,7+,2,5+,-1.0,300.0,True,True,True,True,True,True,False,False,True,True,1850000
+307,فيلا,الرياض,حي الاندلس,جنوبية غربية,4,2,5+,-1.0,280.0,True,True,True,False,True,True,False,False,True,True,2100000
+308,فيلا,الرياض,حي اليرموك,جنوبية,5,2,5+,-1.0,250.0,True,True,True,False,True,True,False,False,True,False,2000000
+309,فيلا,الرياض,الرياض,جنوبية,6,3,5+,-1.0,250.0,True,True,False,False,True,True,False,False,True,False,1470000
+310,فيلا,الرياض,حي اليرموك,جنوبية,4,1,4,-1.0,250.0,True,True,True,False,True,True,False,False,True,False,1750000
+311,فيلا,الرياض,حي النسيم الغربي,شرقية,7+,3,4,-1.0,300.0,True,True,True,False,True,True,False,False,True,False,1400000
+312,فيلا,الرياض,,جنوبية,5,2,5+,-1.0,250.0,False,True,True,False,True,True,False,False,True,False,1470000
+313,فيلا,الرياض,الرياض,جنوبية,5,3,5+,-1.0,250.0,True,True,False,False,True,True,False,False,True,False,1470000
+314,فيلا,الرياض,الرياض,شرقية,5,2,5+,-1.0,250.0,True,True,True,False,False,True,False,False,True,False,2050000
+315,فيلا,الرياض,حي النسيم الغربي,شمالية,5,3,5+,-1.0,437.0,True,True,False,False,False,True,False,False,True,True,1750000
+316,فيلا,الرياض,حي السعادة,شرقية,7+,5,5+,21.0,325.0,True,True,True,False,True,True,False,False,True,False,1700000
+317,فيلا,الرياض,حي النسيم الغربي,غربية,7+,5,5+,12.0,458.0,False,True,False,False,True,True,False,False,False,False,1100000
+318,فيلا,الرياض,حي البيان,شمالية شرقية,7+,2,5+,-1.0,360.0,True,True,False,False,True,False,False,False,False,False,1900000
+319,فيلا,الرياض,حي المونسية,شرقية,5,2,5+,-1.0,250.0,True,True,True,False,True,True,False,False,True,True,1850000
+320,فيلا,الرياض,حي الجنادرية,شمالية,4,1,4,-1.0,375.0,False,True,False,False,False,True,False,False,True,False,1200000
+321,فيلا,الرياض,حي الروضة,شرقية,1,2,5+,-1.0,335.0,False,True,True,True,False,False,False,False,False,False,2000000
+322,فيلا,الرياض,حي المونسية,غربية,5,2,5+,-1.0,250.0,True,False,True,False,False,True,False,False,False,False,1850000
+323,فيلا,الرياض,حي القادسية,شمالية,4,2,5+,-1.0,270.0,True,True,True,False,True,True,False,False,True,True,1550000
+324,فيلا,الرياض,حي قرطبة,غربية,7+,4,5+,-1.0,2500.0,True,True,True,True,True,True,False,False,True,False,16700000
+325,فيلا,الرياض,حي اشبيلية,شرقية,7+,2,5+,-1.0,900.0,True,False,False,False,False,False,False,False,False,False,3000000
+326,فيلا,الرياض,حي القادسية,جنوبية شرقية,1,1,5+,-1.0,337.0,True,True,True,False,False,False,False,False,True,True,1950000
+327,فيلا,الرياض,حي المونسية,غربية,5,2,4,-1.0,250.0,True,False,True,False,False,False,False,False,False,False,2100000
+328,فيلا,الرياض,حي الحمراء,غربية,7+,3,5+,-1.0,1180.0,True,True,True,True,True,True,False,True,False,True,6500000
+329,فيلا,الرياض,حي الخليج,جنوبية غربية,7+,1,5+,-1.0,246.0,True,True,True,False,True,True,False,False,True,True,2300000
+330,فيلا,الرياض,حي الصفا,غربية,7+,4,5+,-1.0,750.0,False,True,False,False,False,True,False,False,False,False,2700000
+331,فيلا,الرياض,حي الرمال,شمالية,4,2,4,-1.0,281.0,True,False,True,False,True,True,False,False,True,False,1400000
+332,فيلا,الرياض,حي قرطبة,جنوبية,3,1,5+,-1.0,220.0,True,True,True,True,False,True,False,False,True,False,2200000
+333,فيلا,الرياض,حي الاندلس,شمالية,5,1,5+,-1.0,240.0,True,True,True,False,False,False,False,False,True,True,2000000
+334,فيلا,الرياض,حي السعادة,غربية,5,1,3,5.0,300.0,False,True,False,False,False,True,False,False,True,False,1600000
+335,فيلا,الرياض,حي النسيم الغربي,شمالية,4,2,4,-1.0,312.0,True,True,False,False,True,True,False,False,True,True,1500000
+336,فيلا,الرياض,الرياض,شرقية,4,2,4,-1.0,390.0,True,True,True,False,True,True,False,False,True,False,1900000
+337,فيلا,الرياض,حي النظيم,شرقية,3,1,3,-1.0,375.0,False,True,True,False,True,False,False,False,False,False,1070000
+338,فيلا,الرياض,حي المونسية,جنوبية,6,4,5+,-1.0,262.0,True,True,True,True,False,True,False,False,True,False,2000000
+339,فيلا,الرياض,حي اشبيلية,غربية,5,3,5+,-1.0,300.0,False,False,False,False,True,True,False,False,True,True,1300000
+340,فيلا,الرياض,حي الجنادرية,شمالية,4,2,4,-1.0,360.0,True,True,True,True,False,False,False,False,True,False,1500000
+341,فيلا,الرياض,حي الروضة,شرقية,5,2,5+,5.0,335.0,True,True,True,True,True,False,False,False,True,False,2000000
+342,فيلا,الرياض,حي الازدهار,غربية,4,4,5+,-1.0,200.0,True,False,True,False,False,True,False,False,True,True,2400000
+343,فيلا,الرياض,حي النهضة,غربية,5,1,4,-1.0,417.0,False,True,False,True,True,True,False,False,True,False,2500000
+344,فيلا,الرياض,حي النسيم الغربي,غربية,5,2,5+,-1.0,625.0,False,True,True,True,True,True,False,False,True,False,1200000
+345,فيلا,الرياض,الرياض,جنوبية,5,3,5+,-1.0,630.0,True,True,True,True,True,True,True,False,True,False,4300000
+346,فيلا,الرياض,الرياض,غربية,6,2,5+,-1.0,305.0,True,False,True,False,True,False,False,False,True,True,1650000
+347,فيلا,الرياض,حي اليرموك,شمالية,4,2,4,-1.0,250.0,True,True,True,False,True,True,False,False,True,True,1900000
+348,فيلا,الرياض,حي الخليج,جنوبية,6,4,3,-1.0,350.0,False,False,False,False,False,False,False,False,False,False,1880000
+349,فيلا,الرياض,حي الحمراء,غربية,7+,2,5+,-1.0,2500.0,True,True,True,True,True,True,False,False,True,False,16700000
+350,فيلا,الرياض,حي غرناطة,شمالية غربية,5,2,5+,-1.0,840.0,False,True,False,False,False,False,False,False,True,False,4000000
+351,فيلا,الرياض,حي الحمراء,جنوبية,5,2,5+,-1.0,618.0,True,True,True,True,True,True,False,False,True,True,6000000
+352,فيلا,الرياض,حي المونسية,شمالية,4,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,1200000
+353,فيلا,الرياض,حي القدس,شمالية,5,3,5+,15.0,900.0,False,True,True,True,True,True,True,False,True,False,5000000
+354,فيلا,الرياض,الرياض,غربية,7+,3,4,15.0,375.0,True,True,False,False,True,True,False,False,True,False,1500000
+355,فيلا,الرياض,حي الخليج,شرقية,5,2,5+,20.0,325.0,True,True,False,False,True,False,False,False,True,False,2000000
+356,فيلا,الرياض,حي الاندلس,شمالية,6,4,5+,12.0,750.0,True,True,True,True,True,True,False,False,True,False,3300000
+357,فيلا,الرياض,حي الاندلس,شمالية,6,1,3,15.0,400.0,False,True,False,True,True,True,False,False,True,False,2650000
+358,فيلا,الرياض,حي الروضة,غربية,6,1,5+,20.0,637.0,False,True,True,True,True,True,False,False,True,False,2550000
+359,فيلا,الرياض,حي النهضة,شمالية,4,2,5+,15.0,375.0,True,True,True,False,True,True,False,False,True,True,2650000
+360,فيلا,الرياض,الرياض,شرقية,3,2,5+,10.0,484.0,False,True,False,False,False,False,False,False,False,False,1670000
+361,فيلا,الرياض,حي اشبيلية,شرقية,5,3,5+,20.0,432.0,False,True,True,True,False,True,False,False,True,False,2300000
+362,فيلا,الرياض,حي القادسية,شرقية,5,2,4,15.0,375.0,False,True,False,False,True,True,False,False,True,False,2400000
+363,فيلا,الرياض,حي النسيم الغربي,غربية,7+,2,2,10.0,500.0,False,True,False,False,False,False,False,False,True,False,1250000
+364,فيلا,الرياض,حي المعيزلة,غربية,4,2,4,20.0,600.0,True,True,True,False,True,True,False,False,True,False,3000000
+365,فيلا,الرياض,حي الحمراء,غربية,7+,2,5+,25.0,618.0,True,True,False,True,True,True,False,False,True,True,6000000
+366,فيلا,الرياض,حي الرمال,شرقية,6,1,5+,20.0,495.0,True,True,False,False,True,True,False,False,True,False,2500000
+367,فيلا,الرياض,حي الحمراء,شرقية,7+,3,5+,25.0,1237.0,True,True,True,False,True,True,False,False,True,False,6500000
+368,فيلا,الرياض,حي الرمال,شمالية,4,2,4,15.0,337.0,True,True,True,True,True,True,False,False,True,False,2100000
+369,فيلا,الرياض,حي القدس,غربية,7+,3,5+,15.0,900.0,True,True,False,True,True,False,False,False,True,False,4500000
+370,فيلا,الرياض,الرياض,شرقية,7+,4,5+,15.0,288.0,True,True,True,False,True,True,False,False,True,True,1770000
+371,فيلا,الرياض,حي الرمال,جنوبية,4,2,5+,15.0,312.0,True,True,False,False,True,True,False,False,False,False,2000000
+372,فيلا,الرياض,حي الرمال,غربية,7+,3,5+,18.0,300.0,True,True,True,False,False,True,False,False,True,False,1500000
+373,فيلا,الرياض,حي الرمال,شمالية,7+,2,5+,20.0,315.0,True,True,True,False,False,True,False,False,True,True,1600000
+374,فيلا,الرياض,حي الرمال,غربية,7+,3,5+,18.0,300.0,True,True,True,False,True,True,False,False,True,False,1600000
+375,فيلا,الرياض,حي قرطبة,شرقية,7+,2,5+,20.0,375.0,True,True,True,False,False,False,False,False,False,False,4000000
+376,فيلا,الرياض,حي الرمال,شرقية,4,2,5+,15.0,375.0,True,True,False,False,True,True,False,False,True,False,2450000
+377,فيلا,الرياض,حي المونسية,غربية,4,2,4,20.0,250.0,True,True,True,False,True,True,False,False,True,False,1750000
+378,فيلا,الرياض,حي الرمال,شمالية شرقية,7+,2,3,15.0,288.0,True,True,False,False,False,True,False,False,True,True,1770000
+379,فيلا,الرياض,حي الفيحاء,غربية,7+,1,5+,15.0,750.0,True,True,True,False,True,True,False,False,True,False,2100000
+380,فيلا,الرياض,حي السعادة,غربية,5,2,5+,15.0,312.0,True,True,False,False,True,True,False,False,True,True,1550000
+381,فيلا,الرياض,حي الفيحاء,شرقية,7+,2,5+,15.0,250.0,True,True,True,False,True,True,False,False,True,False,1150000
+382,فيلا,الرياض,حي مطار الملك خالد الدولي,شرقية,3,1,3,21.0,330.0,True,True,False,False,False,False,False,False,False,False,1650000
+383,فيلا,الرياض,حي النهضة,غربية,7+,4,5+,20.0,375.0,True,True,True,True,True,True,False,False,True,True,2200000
+384,فيلا,الرياض,حي الملز,شمالية شرقية,7+,5,5+,10.0,750.0,False,True,False,True,False,False,False,False,False,False,2100000
+385,فيلا,الرياض,الرياض,غربية,6,3,4,15.0,300.0,True,True,True,True,False,True,False,False,True,False,1150000
+386,فيلا,الرياض,,شمالية,5,2,4,18.0,300.0,False,True,False,False,False,True,False,False,True,False,900000
+387,فيلا,الرياض,حي القدس,شمالية,6,2,5+,15.0,270.0,True,False,False,False,False,True,False,False,True,False,2800000
+388,فيلا,الرياض,حي الرمال,شمالية,7+,2,5+,20.0,281.0,True,True,True,True,True,True,False,False,True,False,1400000
+389,فيلا,الرياض,حي اليرموك,جنوبية,4,2,5+,15.0,200.0,False,True,False,False,False,False,False,False,False,False,1800000
+390,فيلا,الرياض,حي اليرموك,جنوبية,5,2,5+,20.0,250.0,True,True,True,False,False,True,False,False,True,False,2200000
+391,فيلا,الرياض,حي المعيزلة,شمالية,5,2,5+,15.0,595.0,True,True,True,True,True,True,False,False,True,False,2500000
+392,فيلا,الرياض,حي المونسية,جنوبية,4,2,5+,20.0,312.0,True,True,True,False,True,False,False,False,True,True,2200000
+393,فيلا,الرياض,حي قرطبة,شمالية,5,1,5+,30.0,1080.0,False,True,True,True,True,True,True,False,True,True,9500000
+394,فيلا,الرياض,حي السعادة,شمالية غربية,4,2,5+,15.0,250.0,True,True,True,False,True,False,False,False,True,False,1600000
+395,فيلا,الرياض,حي المونسية,شرقية,5,3,5+,20.0,250.0,True,True,True,False,True,True,False,False,True,False,1750000
+396,فيلا,الرياض,حي النهضة,جنوبية,4,3,4,20.0,375.0,True,True,True,False,False,False,False,False,True,True,2150000
+397,فيلا,الرياض,حي الرمال,جنوبية,5,3,5+,5.0,360.0,True,True,True,False,True,True,False,False,True,True,2350000
+398,فيلا,الرياض,حي السلام,غربية,7+,2,5+,15.0,500.0,False,True,True,True,True,True,False,False,True,False,1800000
+399,فيلا,الرياض,حي القادسية,شمالية شرقية,7+,5,5+,15.0,850.0,True,True,True,True,True,True,True,False,True,True,6500000
+400,فيلا,الرياض,حي المونسية,شرقية,7+,3,5+,20.0,308.0,True,True,True,False,True,True,False,False,True,True,2600000
+401,فيلا,الرياض,حي الحمراء,جنوبية,7+,2,5+,20.0,750.0,True,True,True,True,True,True,False,False,True,False,4500000
+402,فيلا,الرياض,حي المونسية,جنوبية,5,2,5+,15.0,250.0,True,True,True,False,True,True,False,False,True,False,1800000
+403,فيلا,الرياض,الرياض,جنوبية,6,2,5+,18.0,520.0,True,True,True,False,True,True,False,False,True,True,2400000
+404,فيلا,الرياض,حي الحمراء,غربية,6,4,5+,18.0,1237.0,False,True,True,True,True,True,True,False,True,True,8900000
+405,فيلا,الرياض,حي اشبيلية,جنوبية شرقية,6,3,5+,15.0,585.0,True,True,True,True,False,True,False,False,True,False,2800000
+406,فيلا,الرياض,حي الروضة,جنوبية غربية,7+,2,5+,12.0,315.0,False,True,False,False,False,True,False,False,True,False,1800000
+407,فيلا,الرياض,حي السعادة,جنوبية غربية,5,1,3,15.0,361.0,False,True,False,False,True,True,False,False,True,False,1760000
+408,فيلا,الرياض,حي الملز,غربية,7+,5,5+,15.0,625.0,False,True,True,True,True,True,False,False,True,False,4000000
+409,فيلا,الرياض,حي الرمال,غربية,5,2,5+,15.0,250.0,True,True,True,False,True,False,False,False,True,False,1300000
+410,فيلا,الرياض,حي الرمال,جنوبية,5,2,5+,18.0,300.0,False,True,True,False,False,True,False,False,False,False,1650000
+411,فيلا,الرياض,الرياض,غربية,5,1,5+,18.0,250.0,True,True,True,False,False,False,False,False,False,False,1450000
+412,فيلا,الرياض,حي المونسية,شمالية غربية,5,2,5+,15.0,440.0,True,True,True,False,False,False,False,False,False,False,3250000
+413,فيلا,الرياض,حي المونسية,جنوبية,5,2,5+,15.0,250.0,True,True,True,False,False,False,False,False,True,False,1900000
+414,فيلا,الرياض,حي البيان,شرقية,7+,3,5+,25.0,336.0,True,True,True,False,False,True,False,False,True,False,1800000
+415,فيلا,الرياض,الرياض,شرقية,5,2,3,20.0,376.0,True,True,False,True,False,True,False,False,True,True,2760000
+416,فيلا,الرياض,الرياض,شمالية غربية,5,2,5+,20.0,250.0,True,True,True,False,True,False,False,False,True,False,1600000
+417,فيلا,الرياض,الرياض,جنوبية,5,2,5+,20.0,300.0,True,True,True,False,True,False,False,False,True,False,1650000
+418,فيلا,الرياض,الرياض,جنوبية,5,2,5+,15.0,300.0,True,True,True,False,True,False,False,False,True,False,1400000
+419,فيلا,الرياض,الرياض,غربية,7+,2,5+,18.0,325.0,True,True,True,False,True,True,False,False,True,False,1650000
+420,فيلا,الرياض,الرياض,جنوبية غربية,5,2,5+,20.0,264.0,True,True,True,False,True,False,False,False,True,False,2150000
+421,فيلا,الرياض,الرياض,جنوبية,5,2,5+,20.0,300.0,True,True,True,False,True,False,False,False,True,False,1900000
+422,فيلا,الرياض,الرياض,غربية,5,2,5+,15.0,375.0,True,True,True,False,True,False,False,False,True,False,2300000
+423,فيلا,الرياض,حي المونسية,جنوبية,5,3,5+,18.0,250.0,True,True,True,True,True,True,False,False,True,True,1950000
+424,فيلا,الرياض,حي المونسية,غربية,5,2,5+,18.0,250.0,True,True,True,False,True,False,False,False,True,False,1950000
+425,فيلا,الرياض,حي الشهداء,شرقية,7+,1,5+,15.0,297.0,True,True,True,True,False,True,False,False,True,False,1750000
+426,فيلا,الرياض,حي المونسية,شمالية,5,2,5+,15.0,250.0,True,True,True,False,True,False,False,False,True,False,2000000
+427,فيلا,الرياض,حي المونسية,جنوبية,5,2,5+,15.0,250.0,True,True,True,False,False,False,False,False,False,False,2000000
+428,فيلا,الرياض,حي اليرموك,شمالية,6,2,5+,15.0,312.0,True,True,True,False,True,True,False,False,True,False,2500000
+429,فيلا,الرياض,حي الجنادرية,غربية,7+,4,5+,20.0,360.0,True,True,False,False,True,True,False,False,True,True,1600000
+430,فيلا,الرياض,حي الرمال,شمالية,7+,3,5+,20.0,950.0,True,True,True,False,True,True,False,False,True,True,4400000
+431,فيلا,الرياض,حي الروابي,جنوبية,7+,2,5+,20.0,462.0,True,True,True,True,True,True,False,False,True,False,3000000
+432,فيلا,الرياض,حي النهضة,غربية,5,3,5+,15.0,275.0,True,True,True,False,False,True,False,False,True,False,1770000
+433,فيلا,الرياض,حي الحمراء,شمالية,6,2,5+,20.0,465.0,False,True,True,True,True,True,False,False,True,False,3500000
+434,فيلا,الرياض,حي اشبيلية,جنوبية غربية,6,2,5+,25.0,325.0,True,True,True,True,True,True,False,False,True,False,2850000
+435,فيلا,الرياض,الرياض,شمالية,7+,2,5+,18.0,300.0,True,True,True,False,True,True,False,False,True,False,1650000
+436,فيلا,الرياض,حي الازدهار,شمالية,4,1,5+,15.0,300.0,True,True,True,True,False,True,False,False,True,False,2500000
+437,فيلا,الرياض,حي قرطبة,شمالية,7+,3,5+,15.0,350.0,False,True,True,True,True,True,False,False,True,False,3100000
+438,فيلا,الرياض,حي السلام,شرقية,7+,2,5+,20.0,500.0,False,True,True,False,False,True,False,False,True,False,1850000
+439,فيلا,الرياض,حي النظيم,شمالية,5,1,4,15.0,313.0,False,True,True,True,False,True,False,False,True,False,1450000
+440,فيلا,الرياض,حي الرمال,جنوبية,7+,2,5+,15.0,312.0,True,True,True,False,True,True,False,False,True,False,1600000
+441,فيلا,الرياض,حي الرمال,شرقية,4,1,2,15.0,500.0,False,True,False,False,False,True,False,False,True,False,1900000
+442,فيلا,الرياض,حي الحمراء,غربية,7+,3,5+,25.0,618.0,True,True,True,True,True,True,True,False,True,True,5500000
+443,فيلا,الرياض,حي البيان,شرقية,4,2,5+,15.0,435.0,True,True,True,True,False,True,True,False,True,False,1600000
+444,فيلا,الرياض,حي الاندلس,شمالية,5,5,5+,15.0,750.0,True,True,True,True,True,True,True,False,True,False,3300000
+445,فيلا,الرياض,حي النهضة,جنوبية,5,1,5+,-1.0,360.0,True,True,True,False,True,True,False,False,True,False,1950000
+446,فيلا,الرياض,حي الشهداء,شرقية,7+,4,5+,-1.0,900.0,False,True,False,False,False,False,False,False,False,False,4000000
+447,فيلا,الرياض,حي غرناطة,شرقية,7+,2,3,-1.0,900.0,False,False,False,False,False,False,False,False,False,False,4000000
+448,فيلا,الرياض,حي اشبيلية,شرقية,4,3,5+,-1.0,900.0,True,True,False,False,False,True,False,False,True,False,2550000
+449,فيلا,الرياض,حي اليرموك,شرقية,5,1,4,-1.0,900.0,True,False,True,True,False,True,False,False,True,False,2500000
+450,فيلا,الرياض,حي غرناطة,شرقية,4,4,5+,-1.0,900.0,False,True,False,True,False,False,False,False,False,False,4500000
+451,فيلا,الرياض,حي المنار,شمالية,7+,1,5+,15.0,313.0,True,True,True,False,True,True,False,False,True,False,2300000
+452,فيلا,الرياض,حي النسيم الغربي,غربية,7+,3,5+,15.0,500.0,False,True,False,False,True,True,False,False,False,False,1500000
+453,فيلا,الرياض,حي القادسية,غربية,7+,3,5+,20.0,280.0,False,True,False,False,False,True,False,False,False,False,1450000
+454,فيلا,الرياض,الرياض,جنوبية,7+,3,5+,-1.0,312.0,True,True,True,False,False,True,False,False,True,True,1000230
+455,فيلا,الرياض,حي ظهرة لبن,جنوبية شرقية,5,2,5+,-1.0,450.0,True,True,True,False,True,True,False,False,True,False,3000000
+456,فيلا,الرياض,حي ظهرة لبن,شمالية,5,2,5+,-1.0,395.0,False,False,False,False,False,False,False,False,False,False,1240000
+457,فيلا,الرياض,حي ظهرة لبن,غربية,5,3,5+,-1.0,450.0,True,True,True,False,False,True,False,False,True,False,2190000
+458,فيلا,الرياض,حي ظهرة لبن,غربية,5,3,5+,-1.0,450.0,False,True,True,True,False,True,False,False,True,False,2190000
+459,فيلا,الرياض,حي المهدية,جنوبية,4,4,4,-1.0,704.0,True,True,True,False,True,True,False,False,False,False,2300000
+460,فيلا,الرياض,حي المهدية,غربية,6,2,4,-1.0,704.0,True,True,False,False,False,True,False,False,True,False,2300000
+461,فيلا,الرياض,حي ظهرة لبن,شمالية,4,2,4,-1.0,450.0,True,True,True,False,True,True,False,False,True,False,2300000
+462,فيلا,الرياض,حي ظهرة لبن,شمالية,5,2,5+,-1.0,274.0,True,False,False,False,False,False,False,False,False,False,1100000
+463,فيلا,الرياض,حي ظهرة لبن,غربية,5,3,5+,-1.0,493.0,True,False,False,False,False,False,False,False,False,False,2500000
+464,فيلا,الرياض,حي العريجاء الغربي,غربية,5,3,5+,-1.0,200.0,True,False,False,False,True,True,False,False,True,False,1050000
+465,فيلا,الرياض,حي ظهرة لبن,شمالية,6,2,3,-1.0,450.0,False,False,False,False,False,False,False,False,False,False,1850000
+466,فيلا,الرياض,حي ظهرة لبن,شمالية,7+,3,5+,-1.0,450.0,True,True,True,False,True,True,False,False,True,False,1750000
+467,فيلا,الرياض,الرياض,شمالية,2,2,4,-1.0,375.0,False,True,False,False,False,True,False,False,True,False,1100000
+468,فيلا,الرياض,حي طويق,جنوبية غربية,7+,5,5+,-1.0,225.0,True,True,True,True,True,True,False,False,True,False,1350000
+469,فيلا,الرياض,حي طويق,غربية,5,5,5+,-1.0,225.0,True,True,True,True,True,True,False,False,True,False,1250000
+470,فيلا,الرياض,حي ظهرة لبن,شمالية,5,3,5+,-1.0,200.0,True,False,False,False,False,False,False,False,False,False,1200000
+471,فيلا,الرياض,حي ظهرة لبن,شمالية,7+,3,5+,-1.0,200.0,True,False,True,False,False,False,False,False,False,True,1200000
+472,فيلا,الرياض,حي ظهرة البديعة,غربية,7+,2,5+,-1.0,250.0,False,False,True,False,True,True,False,False,True,False,1250000
+473,فيلا,الرياض,حي طويق,جنوبية,5,5,5+,-1.0,300.0,True,True,True,True,True,True,False,False,True,True,1450000
+474,فيلا,الرياض,حي ظهرة لبن,جنوبية غربية,5,3,5+,-1.0,280.0,False,True,False,False,False,False,False,False,False,False,1150000
+475,فيلا,الرياض,حي طويق,غربية,7+,1,5+,15.0,360.0,True,True,True,False,True,True,False,False,True,False,1400000
+476,فيلا,الرياض,حي نمار,غربية,7+,2,5+,-1.0,319.0,True,True,True,False,True,True,False,False,True,False,1200000
+477,فيلا,الرياض,حي الحزم,غربية,7+,2,5+,-1.0,300.0,True,False,True,False,True,True,False,False,True,False,1200000
+478,فيلا,الرياض,حي الحزم,غربية,7+,2,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,False,1300000
+479,فيلا,الرياض,حي الحزم,غربية,7+,2,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,False,1250000
+480,فيلا,الرياض,حي الحزم,غربية,7+,2,5+,-1.0,300.0,True,True,False,False,True,True,False,False,True,False,1250000
+481,فيلا,الرياض,حي طويق,جنوبية,5,3,5+,-1.0,300.0,True,True,True,False,True,False,False,False,True,False,1500000
+482,فيلا,الرياض,حي طويق,جنوبية,6,2,5+,-1.0,300.0,True,True,False,False,False,True,False,False,True,False,1500000
+483,فيلا,الرياض,حي طويق,غربية,5,2,5+,-1.0,300.0,True,True,False,False,False,True,False,False,True,False,1550000
+484,فيلا,الرياض,الرياض,جنوبية,7+,5,5+,-1.0,469.0,True,True,True,False,True,True,False,False,True,True,1700000
+485,فيلا,الرياض,حي ظهرة لبن,جنوبية,7+,3,5+,-1.0,450.0,True,True,True,True,True,True,False,False,True,False,2000000
+486,فيلا,الرياض,الرياض,جنوبية,7+,4,5+,-1.0,469.0,True,True,True,True,True,True,False,False,True,True,1700000
+487,فيلا,الرياض,حي طويق,غربية,7+,2,5+,-1.0,375.0,True,True,True,True,True,True,False,False,True,False,1430000
+488,فيلا,الرياض,حي المهدية,غربية,7+,4,5+,-1.0,447.0,False,True,True,False,True,True,False,False,True,False,4200000
+489,فيلا,الرياض,حي المهدية,جنوبية,4,5,5+,-1.0,469.0,True,True,True,False,True,True,False,False,True,True,1450000
+490,فيلا,الرياض,حي ظهرة لبن,جنوبية شرقية,5,3,5+,-1.0,290.0,True,True,False,False,False,False,False,False,False,False,900000
+491,فيلا,الرياض,حي ظهرة لبن,جنوبية,5,2,5+,-1.0,375.0,True,True,True,False,True,True,False,False,True,True,2000000
+492,فيلا,الرياض,حي طويق,شمالية شرقية,5,2,5+,-1.0,200.0,True,True,True,False,True,True,False,False,True,False,1100000
+493,فيلا,الرياض,حي طويق,شرقية,6,2,5+,-1.0,450.0,True,True,True,False,True,True,False,False,True,True,3400000
+494,فيلا,الرياض,الرياض,جنوبية,7+,5,5+,-1.0,469.0,True,True,True,False,True,True,False,False,True,True,1600000
+495,فيلا,الرياض,الرياض,جنوبية,7+,5,5+,-1.0,469.0,True,True,True,False,True,True,False,False,True,True,1830000
+496,فيلا,الرياض,الرياض,جنوبية,6,5,5+,-1.0,469.0,True,True,True,False,True,True,False,False,True,True,1830000
+497,فيلا,الرياض,حي طويق,شمالية,6,1,3,-1.0,480.0,False,True,False,False,True,True,False,False,True,False,1900000
+498,فيلا,الرياض,حي الزهرة,جنوبية,5,2,5+,-1.0,500.0,False,True,True,False,True,True,False,False,True,False,880000
+499,فيلا,الرياض,حي هجرة لبن,جنوبية شرقية,7+,4,5+,-1.0,500.0,True,True,True,True,True,True,False,False,True,False,3700000
+500,فيلا,الرياض,حي الحزم,شمالية,6,3,5+,-1.0,252.0,True,True,True,False,False,True,False,False,True,True,1280000
+501,فيلا,الرياض,حي ظهرة البديعة,شرقية,5,2,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,False,1900000
+502,فيلا,الرياض,حي طويق,غربية,7+,4,5+,-1.0,400.0,False,True,False,False,True,False,False,False,False,False,980000
+503,فيلا,الرياض,حي الرفيعة,شرقية,7+,2,5+,10.0,550.0,True,True,True,False,False,True,False,True,True,False,4000000
+504,فيلا,الرياض,حي الحزم,جنوبية,4,2,5+,15.0,312.0,True,True,True,False,True,False,False,False,True,False,1500000
+505,فيلا,الرياض,حي الحزم,شرقية,5,3,5+,30.0,200.0,True,True,True,False,True,True,False,False,True,False,1080000
+506,فيلا,الرياض,حي العريجاء الغربي,شمالية,7+,3,5+,12.0,312.0,False,True,True,True,True,True,False,False,True,True,1800000
+507,فيلا,الرياض,حي الحزم,جنوبية شرقية,5,2,4,12.0,312.0,True,True,True,False,False,True,False,False,True,False,1410000
+508,فيلا,الرياض,حي العوالي,غربية,3,1,3,18.0,275.0,False,True,False,False,False,False,False,False,False,False,1250000
+509,فيلا,الرياض,الرياض,شرقية,7+,1,4,5.0,312.0,True,True,False,False,True,True,False,False,True,False,1600000
+510,فيلا,الرياض,حي ظهرة لبن,جنوبية غربية,2,2,4,26.0,240.0,False,True,True,False,True,False,False,False,False,False,950000
+511,فيلا,الرياض,حي طويق,شمالية شرقية,5,2,5+,15.0,905.0,False,True,True,True,True,True,False,False,True,False,1900000
+512,فيلا,الرياض,حي شبرا,شمالية,4,2,4,10.0,500.0,False,True,False,True,True,True,False,False,True,False,1150000
+513,فيلا,الرياض,حي طويق,غربية,4,2,5+,20.0,312.0,True,True,True,False,True,True,False,False,True,False,1450000
+514,فيلا,الرياض,حي المهدية,جنوبية,5,3,5+,15.0,245.0,False,True,True,False,False,False,False,False,False,True,1900000
+515,فيلا,الرياض,حي طويق,شمالية,7+,2,5+,20.0,200.0,True,True,False,False,True,True,False,False,False,False,1050000
+516,فيلا,الرياض,حي لبن,شمالية,3,1,3,5.0,225.0,False,True,False,False,False,False,False,False,False,False,1750000
+517,فيلا,الرياض,حي المهدية,شرقية,6,2,5+,25.0,225.0,True,True,True,True,True,True,False,False,True,False,1500000
+518,فيلا,الرياض,حي المهدية,غربية,7+,2,4,20.0,836.0,True,True,False,False,True,True,False,True,True,True,3500000
+519,فيلا,الرياض,حي ظهرة لبن,جنوبية,4,3,5+,20.0,400.0,True,True,False,False,False,True,False,False,True,True,1150000
+521,فيلا,الرياض,حي طويق,شرقية,3,1,3,16.0,200.0,False,True,False,False,False,False,False,False,False,False,1000000
+522,فيلا,الرياض,الرياض,شمالية,5,3,5+,5.0,200.0,True,True,False,False,False,True,False,False,True,False,1450000
+523,فيلا,الرياض,الرياض,شمالية,5,2,5+,15.0,437.0,True,True,False,True,True,True,False,False,True,False,1350000
+524,فيلا,الرياض,الرياض,شمالية,5,3,5+,20.0,200.0,True,True,False,False,False,True,False,False,True,False,1450000
+525,فيلا,الرياض,الرياض,جنوبية غربية,5,3,5+,20.0,200.0,True,True,True,False,False,False,False,False,True,False,1600000
+526,فيلا,الرياض,حي الزهرة,شمالية غربية,7+,2,5+,30.0,760.0,True,True,True,True,False,True,False,False,True,False,2000000
+527,فيلا,الرياض,حي طويق,شمالية غربية,5,3,5+,25.0,250.0,True,True,False,False,False,False,False,False,True,True,1350000
+528,فيلا,الرياض,حي ظهرة لبن,شمالية,6,2,5+,20.0,200.0,True,True,False,False,False,False,False,False,False,False,1200000
+529,فيلا,الرياض,حي المهدية,غربية,7+,3,5+,15.0,330.0,True,True,True,False,True,True,False,False,True,False,2400000
+530,فيلا,الرياض,حي طويق,جنوبية,5,2,5+,20.0,400.0,False,True,True,True,False,True,False,False,False,False,880000
+531,فيلا,الرياض,حي المهدية,جنوبية,5,3,5+,25.0,225.0,True,True,True,False,False,True,False,False,True,False,1350000
+532,فيلا,الرياض,حي المهدية,غربية,6,2,5+,15.0,450.0,True,True,True,True,True,True,False,False,True,True,2600000
+533,فيلا,الرياض,حي العريجاء الغربي,شرقية,5,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,False,False,970000
+534,فيلا,الرياض,الرياض,شمالية,5,3,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,980000
+535,فيلا,الرياض,حي العريجاء الوسطى,غربية,5,3,5+,16.0,400.0,True,True,False,False,True,True,False,False,True,False,1100000
+536,فيلا,الرياض,حي المهدية,شرقية,7+,2,5+,20.0,525.0,True,True,True,True,False,True,False,False,True,True,3000000
+537,فيلا,الرياض,الرياض,شرقية,5,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,1020000
+538,فيلا,الرياض,حي العريجاء الغربي,شرقية,5,3,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,970000
+539,فيلا,الرياض,حي المهدية,غربية,3,2,5+,20.0,200.0,True,True,True,False,False,True,False,False,True,False,1850000
+540,فيلا,الرياض,الرياض,شمالية شرقية,6,3,5+,25.0,312.0,True,True,True,False,True,True,False,False,True,True,1950000
+541,فيلا,الرياض,حي المهدية,جنوبية شرقية,7+,4,5+,5.0,450.0,False,True,True,True,False,False,False,False,True,True,4400000
+542,فيلا,الرياض,حي المهدية,شمالية,6,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,True,1500000
+543,فيلا,الرياض,حي طويق,جنوبية,5,3,5+,30.0,300.0,True,True,False,False,False,False,True,False,True,False,1330000
+544,فيلا,الرياض,حي العريجاء الغربية,شرقية,5,3,5+,15.0,200.0,True,True,True,False,True,True,False,False,True,False,900000
+545,فيلا,الرياض,حي المهدية,شمالية,6,2,5+,15.0,241.0,True,True,True,False,False,True,False,False,True,False,1500000
+546,فيلا,الرياض,الرياض,جنوبية,7+,1,5+,20.0,450.0,False,True,False,False,False,False,False,False,False,False,1000000
+547,فيلا,الرياض,الرياض,شمالية,6,3,5+,20.0,345.0,True,True,True,True,True,True,False,False,True,True,2500000
+548,فيلا,الرياض,حي طويق,شرقية,4,2,5+,20.0,290.0,False,True,False,False,True,True,False,False,True,False,300000
+549,فيلا,الرياض,حي السويدي الغربي,شرقية,5,5,5+,15.0,375.0,True,True,True,False,True,True,False,True,True,False,1440000
+550,فيلا,الرياض,حي السويدي الغربي,شمالية,5,3,5+,25.0,375.0,True,True,True,False,False,False,False,False,True,False,1600000
+551,فيلا,الرياض,حي ظهرة البديعة,جنوبية شرقية,4,2,5+,15.0,200.0,True,True,True,True,True,True,False,False,True,False,1250000
+552,فيلا,الرياض,حي ظهرة البديعة,جنوبية,6,3,5+,15.0,275.0,True,True,True,True,True,True,False,False,True,True,1700000
+553,فيلا,الرياض,حي المهدية,شمالية,7+,3,5+,20.0,450.0,True,True,True,True,True,True,False,False,True,True,2700000
+554,فيلا,الرياض,حي المهدية,شمالية,6,3,5+,20.0,450.0,True,True,True,False,True,True,False,False,True,True,3300000
+555,فيلا,الرياض,حي طويق,شمالية,5,3,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,980000
+556,فيلا,الرياض,حي طويق,غربية,7+,2,5+,15.0,375.0,True,True,True,False,False,True,False,False,True,False,1750000
+557,فيلا,الرياض,الرياض,غربية,5,3,5+,20.0,200.0,True,True,True,False,False,True,False,False,True,True,1500000
+558,فيلا,الرياض,حي المهدية,غربية,6,3,5+,20.0,300.0,True,True,True,False,True,True,False,False,True,True,1600000
+559,فيلا,الرياض,حي العريجاء الغربي,شمالية,5,3,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,980000
+560,فيلا,الرياض,طريق الامير مساعد بن عبدالرحمن بن فيصل,غربية,5,3,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,950000
+561,فيلا,الرياض,حي طويق,غربية,5,3,5+,15.0,350.0,True,True,True,False,True,True,False,False,True,False,1230000
+562,فيلا,الرياض,حي طويق,شرقية,5,3,5+,20.0,280.0,True,True,True,False,True,True,False,False,True,False,1120000
+563,فيلا,الرياض,حي طويق,جنوبية,6,2,5+,15.0,200.0,True,True,True,False,True,True,False,False,True,False,900000
+564,فيلا,الرياض,حي طويق,غربية,5,2,5+,15.0,280.0,True,True,True,False,True,True,False,False,True,False,1120000
+565,فيلا,الرياض,الرياض,جنوبية,5,1,5+,20.0,200.0,True,True,True,False,False,True,False,False,True,True,1600000
+566,فيلا,الرياض,حي طويق,شرقية,5,2,5+,20.0,337.0,True,True,True,False,True,True,False,False,True,False,1200000
+567,فيلا,الرياض,حي ظهرة البديعة,شرقية,6,2,5+,20.0,775.0,True,True,True,True,True,True,False,False,True,False,1700000
+568,فيلا,الرياض,حي طويق,شرقية,5,3,5+,20.0,350.0,True,True,True,False,True,True,False,False,True,False,1200000
+569,فيلا,الرياض,حي طويق,غربية,7+,3,5+,20.0,260.0,False,True,False,False,False,True,False,False,False,False,1200000
+570,فيلا,الرياض,حي الحزم,شرقية,5,2,5+,20.0,240.0,True,True,True,False,True,True,False,False,True,False,900000
+571,فيلا,الرياض,حي العريجاء الغربي,جنوبية,5,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,870000
+572,فيلا,الرياض,حي المهدية,شمالية,5,2,5+,20.0,200.0,True,True,True,True,False,True,False,False,True,True,1300000
+573,فيلا,الرياض,حي المهدية,شرقية,6,3,5+,19.0,281.0,True,True,True,False,False,True,True,False,True,False,1750000
+574,فيلا,الرياض,حي العريجاء الغربي,جنوبية,4,2,5+,21.0,200.0,True,True,True,False,True,True,False,False,True,False,870000
+575,فيلا,الرياض,حي العريجاء الغربي,شمالية,5,3,5+,20.0,200.0,True,True,False,False,True,True,False,False,True,False,900000
+576,فيلا,الرياض,الطريق الدائري الغربي,جنوبية,5,2,5+,20.0,200.0,True,True,True,False,True,True,False,False,True,False,870000
+577,فيلا,الرياض,الطريق الدائري الغربي,شمالية,4,2,5+,25.0,450.0,False,True,True,False,True,True,True,False,True,False,2600000
+578,فيلا,الرياض,حي ظهرة البديعة,شرقية,7+,3,5+,20.0,400.0,True,True,True,False,True,True,False,True,True,False,950000
+579,فيلا,الرياض,حي ظهرة البديعة,شمالية,5,2,5+,20.0,200.0,True,True,True,False,False,True,False,False,True,True,1500000
+580,فيلا,الرياض,حي ظهرة البديعة,جنوبية,6,3,5+,20.0,225.0,True,True,True,False,False,True,False,False,True,True,1550000
+581,فيلا,الرياض,حي ظهرة البديعة,جنوبية,5,3,5+,20.0,250.0,True,True,True,False,False,True,False,False,True,True,1550000
+582,فيلا,الرياض,حي ظهرة البديعة,جنوبية شرقية,6,2,5+,20.0,234.0,True,True,True,False,False,True,False,False,True,True,1790000
+583,فيلا,الرياض,حي المهدية,غربية,5,2,5+,15.0,225.0,True,True,True,False,False,True,False,False,False,False,1840000
+584,فيلا,الرياض,حي المهدية,جنوبية,5,4,5+,20.0,250.0,True,True,True,False,False,True,False,False,True,True,1550000
+585,فيلا,الرياض,حي المهدية,شمالية غربية,5,3,5+,20.0,200.0,True,True,True,False,False,True,False,False,True,True,1500000
+586,فيلا,الرياض,حي الحزم,شمالية غربية,3,2,5+,15.0,220.0,True,True,True,False,True,False,False,False,True,False,1100000
+587,فيلا,الرياض,حي المهدية,جنوبية,4,3,5+,25.0,450.0,True,True,True,False,True,True,False,False,True,False,3100000
+588,فيلا,الرياض,حي المهدية,شمالية,7+,3,5+,18.0,234.0,True,True,True,False,False,True,False,False,True,True,1900000
+589,فيلا,الرياض,الرياض,شمالية,5,3,5+,20.0,270.0,True,True,False,False,False,True,False,False,True,False,1000000
+590,فيلا,الرياض,حي المهدية,شمالية,5,1,5+,25.0,450.0,True,True,True,True,True,True,False,False,True,True,2800000
+591,فيلا,الرياض,حي المهدية,شمالية,7+,3,5+,20.0,450.0,True,True,True,True,True,True,False,False,True,True,3000000
+592,فيلا,الرياض,حي المهدية,شمالية,6,4,5+,20.0,375.0,True,True,True,False,True,True,False,False,True,True,2150000
+593,فيلا,الرياض,حي المهدية,شمالية,7+,3,5+,20.0,375.0,True,True,True,False,True,True,False,False,True,False,1300000
+594,فيلا,الرياض,حي طويق,غربية,5,3,5+,20.0,250.0,True,True,True,False,True,True,False,False,True,True,1850000
+595,فيلا,الرياض,حي نمار,جنوبية غربية,5,2,5+,15.0,313.0,True,True,True,False,True,True,False,False,True,False,1550000
+596,فيلا,الرياض,حي المهدية,جنوبية شرقية,6,3,5+,20.0,225.0,True,True,True,False,False,True,False,False,True,True,1450000
+597,فيلا,الرياض,حي المهدية,شمالية,7+,3,5+,20.0,450.0,True,False,True,True,True,True,False,False,True,True,2450000
+598,فيلا,الرياض,حي المهدية,شمالية شرقية,7+,2,5+,20.0,450.0,True,True,True,False,True,True,False,False,True,False,1900000
+599,فيلا,الرياض,حي الزهرة,شمالية,7+,3,5+,20.0,625.0,True,True,True,True,True,True,False,False,True,True,1700000
+600,فيلا,الرياض,حي المهدية,شرقية,4,2,1,-1.0,900.0,False,False,False,False,False,False,False,False,False,False,4612500
+601,فيلا,الرياض,حي عكاظ,جنوبية,7+,2,5+,-1.0,900.0,False,False,True,True,True,True,False,False,True,False,2250000
+602,فيلا,الرياض,حي الدار البيضاء,شرقية,5,1,5+,5.0,360.0,True,True,True,False,True,True,False,False,True,True,1400000
+603,فيلا,الرياض,حي عكاظ,شمالية,4,1,3,-1.0,525.0,False,True,False,False,False,True,False,False,True,False,750000
+604,فيلا,الرياض,حي بدر,شرقية,7+,2,5+,-1.0,480.0,False,True,False,False,True,True,False,False,True,False,750000
+605,فيلا,الرياض,حي الدار البيضاء,شرقية,5,2,3,15.0,360.0,False,True,False,False,True,True,False,False,True,False,1400000
+606,فيلا,الرياض,الرياض,غربية,4,1,4,5.0,218.0,False,True,False,False,False,False,False,False,True,False,750000
+607,فيلا,الرياض,حي بدر,شمالية,4,2,4,-1.0,225.0,False,False,False,False,True,True,False,False,True,False,750000
+608,فيلا,الرياض,حي الشفا,غربية,5,1,5+,-1.0,218.0,True,True,True,False,False,True,False,False,True,False,750000
+609,فيلا,الرياض,حي بدر,جنوبية,7+,3,5+,-1.0,500.0,False,True,True,False,True,True,False,False,True,False,1500000
+610,فيلا,الرياض,حي بدر,شرقية,4,2,4,-1.0,260.0,True,False,False,False,False,False,False,False,False,False,950000
+611,فيلا,الرياض,حي بدر,شمالية,5,5,5+,-1.0,225.0,False,False,False,False,False,True,False,False,True,False,750000
+612,فيلا,الرياض,حي عكاظ,جنوبية,4,2,4,-1.0,250.0,True,True,True,True,True,True,False,False,True,False,900000
+613,فيلا,الرياض,حي طيبة,جنوبية,5,2,5+,5.0,351.0,True,False,True,True,False,True,False,False,True,True,1400000
+614,فيلا,الرياض,حي عكاظ,شرقية,6,3,4,-1.0,290.0,True,False,True,False,False,True,False,False,True,True,1100000
+615,فيلا,الرياض,حي الدار البيضاء,جنوبية شرقية,5,3,5+,-1.0,312.0,False,True,True,True,True,True,False,False,True,False,1150000
+616,فيلا,الرياض,حي الشفا,غربية,5,1,5+,-1.0,218.0,True,True,False,False,False,True,False,False,True,False,750000
+617,فيلا,الرياض,حي بدر,غربية,5,3,5+,-1.0,250.0,True,False,False,False,False,True,False,False,True,False,850000
+618,فيلا,الرياض,حي بدر,غربية,5,2,5+,-1.0,250.0,True,True,False,False,False,False,False,False,False,False,850000
+619,فيلا,الرياض,حي الشفا,شمالية,6,1,5+,-1.0,450.0,True,True,True,False,True,True,False,False,True,False,850000
+620,فيلا,الرياض,حي بدر,شرقية,7+,2,5+,-1.0,780.0,False,True,False,False,True,True,False,False,True,False,1200000
+621,فيلا,الرياض,حي عكاظ,شرقية,6,3,5+,-1.0,420.0,False,True,True,True,True,False,False,False,True,False,1400000
+622,فيلا,الرياض,حي بدر,شرقية,6,1,5+,-1.0,312.0,True,False,True,True,True,False,False,False,True,False,1200000
+623,فيلا,الرياض,حي بدر,جنوبية غربية,7+,2,5+,-1.0,280.0,False,False,False,False,False,False,False,False,False,False,1280000
+624,فيلا,الرياض,حي الشفا,غربية,7+,2,5+,-1.0,312.0,False,True,True,False,True,True,True,False,True,False,1400000
+625,فيلا,الرياض,حي عكاظ,جنوبية,5,2,5+,-1.0,228.0,True,True,True,False,False,False,False,False,True,False,850000
+626,فيلا,الرياض,حي الشفا,شرقية,7+,2,4,-1.0,612.0,False,True,True,True,True,True,False,False,True,False,1200000
+627,فيلا,الرياض,حي عكاظ,غربية,7+,3,4,-1.0,324.0,True,False,False,False,False,False,True,False,False,True,1350000
+628,فيلا,الرياض,حي العزيزية,شمالية شرقية,7+,2,5+,-1.0,225.0,True,True,True,False,True,False,False,False,True,False,1100000
+629,فيلا,الرياض,حي الشفا,شرقية,7+,1,5+,-1.0,400.0,False,True,False,False,False,True,False,False,True,False,720000
+630,فيلا,الرياض,حي الدار البيضاء,شمالية,4,1,2,-1.0,250.0,False,True,False,False,False,True,False,False,True,False,920000
+631,فيلا,الرياض,حي المناخ,جنوبية,4,1,3,5.0,312.0,False,True,False,False,True,True,False,False,True,False,870000
+632,فيلا,الرياض,حي العزيزية,جنوبية شرقية,5,5,5+,20.0,200.0,False,False,False,False,False,True,False,False,True,False,1050000
+633,فيلا,الرياض,حي الدار البيضاء,شرقية,5,1,1,15.0,375.0,False,False,False,False,False,False,False,False,False,False,1300000
+634,فيلا,الرياض,حي بدر,شرقية,4,1,4,15.0,303.0,False,True,False,False,True,True,False,False,True,False,640000
+635,فيلا,الرياض,الرياض,شرقية,5,1,3,15.0,390.0,False,True,False,False,False,True,False,False,True,False,850000
+636,فيلا,الرياض,حي بدر,غربية,7+,2,5+,5.0,350.0,True,True,True,False,True,True,False,False,True,True,1150000
+637,فيلا,الرياض,حي احد,شرقية,7+,2,4,15.0,375.0,True,True,False,False,True,True,False,False,True,False,1200000
+638,فيلا,الرياض,الرياض,شرقية,3,1,3,20.0,274.0,True,True,False,False,False,False,False,False,False,False,800000
+639,فيلا,الرياض,حي بدر,جنوبية,7+,2,5+,20.0,300.0,True,True,True,False,True,True,False,False,True,False,990000
+640,فيلا,الرياض,الرياض,شمالية شرقية,7+,2,4,20.0,455.0,True,True,False,False,False,False,False,False,False,False,1600000
+641,فيلا,الرياض,حي الاسكان,جنوبية,7+,2,5+,-1.0,300.0,True,True,False,True,True,True,False,True,True,False,1100000
+642,فيلا,الرياض,حي بدر,شرقية,5,3,5+,15.0,300.0,True,True,True,False,False,False,False,False,False,False,950000
+643,فيلا,الرياض,حي بدر,جنوبية,4,2,5+,20.0,245.0,True,True,True,False,True,True,False,False,True,False,1000000
+644,فيلا,الرياض,حي بدر,جنوبية,5,3,5+,15.0,250.0,True,True,True,False,False,True,False,False,True,False,830000
+645,فيلا,الرياض,حي عكاظ,شمالية,5,1,5+,20.0,450.0,True,True,False,False,True,True,False,False,True,True,2350000
+646,فيلا,الرياض,حي العزيزية,شمالية شرقية,7+,3,5+,20.0,775.0,False,True,False,False,True,True,False,False,True,False,1700000
+647,فيلا,الرياض,حي بدر,غربية,5,3,5+,15.0,200.0,True,True,True,False,True,True,False,False,True,False,780000
+648,فيلا,الرياض,حي بدر,جنوبية غربية,7+,1,5+,15.0,230.0,True,True,False,False,True,True,False,False,True,False,980000
+649,فيلا,الرياض,الرياض,غربية,5,2,5+,15.0,274.0,True,True,True,False,True,True,False,False,True,False,820000
+650,فيلا,الرياض,حي بدر,شمالية,3,1,3,20.0,375.0,False,True,False,False,False,False,False,False,True,False,770000
+651,فيلا,الرياض,حي بدر,شمالية,3,1,4,20.0,375.0,False,True,False,False,False,False,False,False,True,False,770000
+652,فيلا,الرياض,حي بدر,جنوبية,5,3,5+,18.0,303.0,True,True,True,False,True,True,False,False,True,False,900000
+653,فيلا,الرياض,حي بدر,شمالية شرقية,6,3,5+,15.0,309.0,True,True,True,False,True,True,False,False,True,True,1080000
+654,فيلا,الرياض,حي بدر,شرقية,7+,3,5+,15.0,527.0,True,True,True,False,True,True,False,False,True,True,1680000
+655,فيلا,الرياض,حي الدار البيضاء,شمالية,5,1,5+,15.0,218.0,True,True,False,False,False,True,False,False,True,False,750000
+656,فيلا,الرياض,حي بدر,غربية,6,3,5+,20.0,300.0,True,True,True,False,True,True,False,False,True,True,1050000
+657,فيلا,الرياض,حي بدر,شمالية شرقية,5,2,5+,18.0,328.0,True,True,True,False,True,True,False,False,True,False,1035000
+658,فيلا,الرياض,حي الشفا,جنوبية,7+,5,5+,16.0,875.0,True,True,True,False,True,True,False,False,True,False,1850000
+659,فيلا,الرياض,الرياض,شرقية,5,2,5+,15.0,271.0,True,True,True,False,True,True,False,False,True,False,830000
+660,فيلا,الرياض,حي عكاظ,شرقية,7+,3,5+,5.0,320.0,True,True,True,False,True,True,False,False,True,False,1200000
+661,فيلا,الرياض,الرياض,غربية,5,2,5+,15.0,259.0,True,True,True,False,True,True,False,False,True,False,820000
+662,فيلا,الرياض,الرياض,غربية,5,2,5+,15.0,276.0,True,True,True,False,True,True,False,False,True,False,830000
+663,فيلا,الرياض,حي بدر,شمالية,5,2,5+,15.0,262.0,True,True,True,False,True,True,False,False,True,False,850000
+664,فيلا,الرياض,حي عكاظ,جنوبية,5,3,5+,25.0,325.0,True,True,True,False,True,True,True,False,True,False,950000
+665,فيلا,الرياض,حي بدر,شمالية,5,2,5+,20.0,225.0,True,True,True,False,True,True,False,False,True,False,845000
+666,فيلا,الرياض,حي طيبة,غربية,5,2,5+,15.0,276.0,True,True,True,False,True,True,False,False,True,False,830000
+667,فيلا,الرياض,حي بدر,شمالية غربية,5,2,5+,15.0,286.0,True,True,True,False,True,True,False,False,True,False,940000
+668,فيلا,الرياض,الرياض,شرقية,5,2,5+,15.0,271.0,True,True,True,False,True,True,False,False,True,False,825000
+669,فيلا,الرياض,حي بدر,شرقية,5,2,5+,20.0,250.0,True,True,True,False,True,True,False,False,True,False,840000
+670,فيلا,الرياض,حي بدر,شمالية,5,2,5+,15.0,269.0,True,True,True,False,True,True,False,False,True,False,940000
+671,فيلا,الرياض,حي بدر,جنوبية,5,2,5+,18.0,304.0,True,True,True,False,True,True,False,False,True,False,950000
+672,فيلا,الرياض,حي عكاظ,جنوبية,3,1,4,15.0,300.0,False,True,False,False,False,True,False,False,True,False,800000
+673,فيلا,الرياض,حي بدر,شرقية,5,3,5+,20.0,303.0,True,True,True,False,True,True,False,False,True,False,850000
+674,فيلا,الرياض,حي بدر,جنوبية,6,3,5+,18.0,300.0,True,True,True,False,False,True,False,False,True,False,850000
+675,فيلا,الرياض,حي عكاظ,شرقية,5,2,5+,21.0,300.0,True,True,True,False,True,True,False,False,True,False,880000
+676,فيلا,الرياض,حي بدر,جنوبية,5,3,5+,18.0,303.0,True,True,True,False,True,True,False,False,True,False,850000
+677,فيلا,الرياض,حي بدر,شرقية,5,2,5+,20.0,210.0,True,True,True,False,True,True,False,False,True,False,780000
+678,فيلا,الرياض,حي بدر,شرقية,5,2,5+,20.0,216.0,True,True,True,False,False,True,False,False,True,False,830000
+679,فيلا,الرياض,حي بدر,شمالية,5,2,5+,20.0,250.0,True,True,True,False,True,True,False,False,True,False,850000
+680,فيلا,الرياض,حي بدر,جنوبية,5,2,5+,20.0,320.0,True,True,True,False,True,True,False,False,True,False,1000000
+681,فيلا,الرياض,حي بدر,شمالية,5,3,5+,20.0,320.0,True,True,True,False,True,True,False,False,True,False,950000
+682,فيلا,الرياض,حي بدر,شرقية,5,3,5+,30.0,275.0,True,True,True,False,True,True,False,False,True,False,870000
+683,فيلا,الرياض,حي عكاظ,شمالية,5,2,5+,20.0,300.0,True,True,True,False,True,True,False,False,True,False,880000
+684,فيلا,الرياض,حي عكاظ,شمالية,5,3,5+,20.0,360.0,True,True,True,False,True,True,False,False,True,False,1000000
+685,فيلا,الرياض,حي الدار البيضاء,شمالية,5,2,5+,20.0,246.0,True,True,True,False,True,True,False,False,True,False,825000
+686,فيلا,الرياض,حي طيبة,شمالية غربية,5,2,5+,20.0,269.0,True,True,True,False,False,True,False,False,False,False,850000
+687,فيلا,الرياض,حي عكاظ,شرقية,7+,3,5+,15.0,375.0,False,True,True,False,True,True,False,False,True,False,1500000
+688,فيلا,الرياض,الرياض,جنوبية,6,3,5+,5.0,265.0,True,True,True,True,False,True,False,False,True,False,1200000
+689,فيلا,الرياض,حي عكاظ,شرقية,7+,3,5+,20.0,360.0,True,True,True,False,True,True,False,False,True,False,1450000
+690,فيلا,الرياض,حي الدار البيضاء,شمالية,4,1,3,20.0,250.0,False,True,False,False,False,False,False,False,False,False,525000
+691,فيلا,الرياض,حي الدار البيضاء,غربية,7+,2,5+,15.0,500.0,True,True,True,False,True,True,False,False,True,False,1200000
+692,فيلا,الرياض,حي الشفا,شمالية,5,4,5+,18.0,300.0,True,True,True,False,True,True,False,False,True,False,1200000
+693,فيلا,الرياض,حي الشفا,ثلاث شوارع,7+,2,5+,-1.0,270.0,True,True,True,True,False,False,False,False,True,False,1000000
+694,فيلا,الرياض,حي العزيزية,جنوبية,7+,3,5+,20.0,608.0,True,True,True,False,True,True,False,False,True,False,1700000
+695,فيلا,الرياض,حي الدار البيضاء,شمالية,5,5,5+,15.0,250.0,False,True,True,False,False,True,False,False,True,False,850000
+696,فيلا,الرياض,حي احد,جنوبية,4,1,4,-1.0,25.0,True,True,False,False,False,False,False,False,False,False,880000
+697,فيلا,الرياض,حي عكاظ,جنوبية,7+,3,4,-1.0,300.0,False,True,False,False,False,False,False,False,True,False,1300000
+698,فيلا,الرياض,حي الدار البيضاء,شمالية,7+,2,5+,20.0,220.0,True,False,True,True,True,True,False,False,True,False,950000
+699,فيلا,الرياض,حي جرير,شرقية,7+,1,4,-1.0,400.0,False,True,True,False,True,True,False,False,True,False,1300000
+700,فيلا,الرياض,حي الربوة,شمالية,5,3,5+,-1.0,336.0,False,True,False,False,True,True,False,False,False,False,1390000
+701,فيلا,الرياض,حي الربوة,شمالية,5,1,3,12.0,274.0,False,True,True,False,False,False,False,False,True,False,1150000
+702,فيلا,الرياض,حي الفاروق,جنوبية,4,1,4,16.0,756.0,True,True,False,False,False,False,False,False,False,False,3300000
+703,فيلا,الرياض,حي الربوة,ثلاث شوارع,7+,2,5+,12.0,868.0,True,True,True,True,True,True,False,False,True,False,4000000
+704,فيلا,الرياض,حي الربوة,شمالية,4,2,4,20.0,1601.0,True,True,True,True,True,True,True,False,True,False,6564100
+705,فيلا,الرياض,حي الخالدية,شمالية شرقية,5,2,5+,15.0,480.0,False,True,False,False,False,False,False,False,False,False,1200000
+706,فيلا,الرياض,حي الزهراء,شرقية,7+,3,5+,10.0,542.0,False,True,True,True,False,True,False,False,False,False,2100000
+707,فيلا,الرياض,حي الرمال,شمالية,7+,2,5+,20.0,281.0,True,True,True,True,True,True,False,False,True,False,1350000
+708,فيلا,الرياض,حي النسيم الغربي,ثلاث شوارع,7+,4,5+,-1.0,765.0,True,True,False,False,False,True,False,False,False,False,2750000
+710,فيلا,الرياض,حي النظيم,جنوبية شرقية,6,2,4,15.0,420.0,True,True,True,True,True,True,False,False,True,False,2300000
+712,فيلا,الرياض,الرياض,جنوبية شرقية,5,3,4,-1.0,247.0,True,True,True,False,True,True,False,False,True,True,1500000
+715,فيلا,الرياض,حي الخليج,شرقية,5,1,5+,-1.0,375.0,False,True,False,False,True,True,False,False,False,False,2200000
+719,فيلا,الرياض,شارع جبل مره,شرقية,5,2,4,-1.0,750.0,True,False,True,True,False,True,False,False,True,True,4500000
+726,فيلا,الرياض,حي المونسية,شمالية,5,5,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,True,2300000
+728,فيلا,الرياض,حي المونسية,جنوبية,5,3,5+,18.0,250.0,True,True,True,True,True,True,False,False,True,True,1900000
+731,فيلا,الرياض,حي الحمراء,جنوبية,5,2,5+,-1.0,618.0,True,True,True,True,True,True,False,False,True,True,5700000
+732,فيلا,الرياض,الرياض,غربية,5,5,5+,-1.0,300.0,True,False,True,False,True,True,False,False,True,True,2350000
+733,فيلا,الرياض,حي المونسية,جنوبية,7+,4,5+,-1.0,220.0,True,True,True,True,False,True,False,False,True,False,1450000
+734,فيلا,الرياض,حي المونسية,غربية,7+,2,5+,20.0,266.0,True,True,True,False,False,True,False,False,True,False,1480000
+735,فيلا,الرياض,حي البيان,شمالية,5,2,4,-1.0,363.0,True,True,False,False,True,True,False,False,True,False,1600000
+738,فيلا,الرياض,حي الجنادرية,شرقية,7+,2,5+,15.0,200.0,True,True,False,False,False,False,False,False,True,False,1050000
+740,فيلا,الرياض,حي الرمال,جنوبية,5,3,5+,-1.0,300.0,True,True,True,False,True,False,False,False,True,False,1700000
+746,فيلا,الرياض,حي الرمال,شمالية,3,1,5+,-1.0,225.0,True,True,False,True,False,True,False,False,True,False,2350000
+747,فيلا,الرياض,حي الفيحاء,جنوبية شرقية,7+,4,5+,-1.0,337.0,False,False,False,False,False,True,False,False,True,False,2000000
+751,فيلا,الرياض,حي اليرموك,غربية,5,2,5+,-1.0,225.0,False,True,False,False,False,True,False,False,False,False,1350000
+754,فيلا,الرياض,حي المونسية,شمالية,7+,4,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,True,2450000
+760,فيلا,الرياض,حي قرطبة,جنوبية,1,2,3,-1.0,360.0,False,True,True,True,False,False,False,False,True,False,2500000
+761,فيلا,الرياض,حي الرمال,جنوبية,4,2,5+,-1.0,338.0,False,True,True,True,True,True,False,False,True,False,1270000
+770,فيلا,الرياض,حي النهضة,شمالية,7+,5,5+,-1.0,495.0,True,True,False,False,False,True,False,False,False,False,2200000
+776,فيلا,الرياض,حي قرطبة,جنوبية,5,2,5+,15.0,360.0,False,True,False,False,False,False,False,False,False,False,2500000
+777,فيلا,الرياض,الرياض,شمالية غربية,7+,2,4,15.0,274.0,True,True,False,False,False,True,False,False,True,False,1300000
+778,فيلا,الرياض,حي السعادة,جنوبية,3,1,5+,-1.0,250.0,True,True,True,True,True,True,False,False,True,False,1700000
+779,فيلا,الرياض,حي الجنادرية,غربية,7+,3,5+,-1.0,312.0,False,False,False,False,False,True,False,False,True,False,1450000
+784,فيلا,الرياض,حي قرطبة,شمالية,7+,3,5+,15.0,350.0,False,True,True,True,True,True,False,False,True,False,3500000
+787,فيلا,الرياض,حي المونسية,غربية,5,2,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,True,2300000
+789,فيلا,الرياض,حي القدس,شمالية,6,3,5+,-1.0,270.0,True,False,True,False,False,True,False,False,True,False,2800000
+790,فيلا,الرياض,حي الروضة,غربية,5,2,5+,-1.0,355.0,False,False,False,False,False,False,False,False,False,False,2600000
+796,فيلا,الرياض,حي قرطبة,شمالية,4,2,5+,-1.0,339.0,True,True,True,False,False,True,False,False,True,False,2450000
+797,فيلا,الرياض,حي الرمال,جنوبية شرقية,6,5,5+,-1.0,555.0,True,True,True,True,True,True,False,False,True,False,3850000
+798,فيلا,الرياض,حي الحمراء,شرقية,7+,3,5+,25.0,618.0,True,True,True,True,True,True,True,False,True,False,4300000
+800,فيلا,الرياض,حي الملك عبدالعزيز,جنوبية شرقية,4,2,5+,-1.0,360.0,False,False,True,True,False,True,False,False,False,False,2900000
+804,فيلا,الرياض,حي الحمراء,جنوبية,7+,3,5+,-1.0,618.0,True,True,True,True,True,True,False,False,True,True,5700000
+805,فيلا,الرياض,حي المونسية,شمالية,4,3,4,-1.0,270.0,True,True,True,True,True,True,False,False,True,False,1950000
+806,فيلا,الرياض,الرياض,جنوبية,5,3,5+,-1.0,345.0,False,True,True,False,False,False,False,False,True,False,2500000
+807,فيلا,الرياض,حي قرطبة,شمالية,5,2,5+,-1.0,225.0,True,True,True,False,True,True,False,False,True,False,2350000
+812,فيلا,الرياض,حي النهضة,شرقية,5,4,5+,-1.0,360.0,True,True,True,False,False,True,False,False,True,False,2000000
+813,فيلا,الرياض,حي اشبيلية,جنوبية,3,3,3,-1.0,375.0,False,True,False,True,True,False,False,False,True,False,2200000
+814,فيلا,الرياض,الرياض,شرقية,4,4,5+,-1.0,360.0,True,True,True,True,True,False,False,False,False,False,2000000
+815,فيلا,الرياض,حي النهضة,شرقية,5,2,5+,-1.0,510.0,False,True,True,True,True,False,False,False,True,False,3000000
+820,فيلا,الرياض,حي القادسية,غربية,5,2,5+,-1.0,275.0,True,True,True,False,False,True,False,False,True,False,1580000
+826,فيلا,الرياض,حي الندوة,جنوبية,5,1,4,15.0,375.0,False,True,False,False,False,True,False,False,True,False,1050000
+828,فيلا,الرياض,حي اشبيلية,جنوبية,5,3,5+,5.0,375.0,True,True,True,True,True,True,False,False,True,False,2100000
+831,فيلا,الرياض,حي القادسية,شمالية شرقية,5,2,5+,15.0,750.0,True,True,True,True,True,True,False,False,True,False,6500000
+836,فيلا,الرياض,حي النسيم الشرقي,جنوبية شرقية,5,3,5+,5.0,992.0,True,True,True,True,True,True,False,False,True,False,4500000
+837,فيلا,الرياض,حي النهضة,شرقية,5,2,5+,25.0,300.0,True,True,True,True,False,True,False,False,True,False,2150000
+839,فيلا,الرياض,حي النهضة,شمالية شرقية,5,2,2,25.0,300.0,True,True,True,True,True,False,False,False,True,True,2000000
+843,فيلا,الرياض,حي الرمال,شرقية,5,3,5+,-1.0,375.0,True,True,True,True,True,True,False,False,True,False,2100000
+847,فيلا,الرياض,حي القادسية,غربية,5,2,5+,-1.0,265.0,False,True,True,False,True,True,False,False,True,False,1500000
+848,فيلا,الرياض,حي البيان,غربية,5,2,5+,-1.0,420.0,False,True,True,True,True,True,False,False,True,False,2200000
+849,فيلا,الرياض,حي السعادة,شمالية,7+,1,5+,-1.0,375.0,False,True,True,False,True,False,False,False,True,False,1750000
+850,فيلا,الرياض,حي المونسية,شمالية,6,1,5+,-1.0,875.0,False,True,True,False,True,True,False,False,True,False,4800000
+855,فيلا,الرياض,حي الملك فيصل,جنوبية شرقية,5,3,5+,20.0,729.0,False,True,True,False,True,True,False,False,True,False,4450000
+856,فيلا,الرياض,حي النهضة,شرقية,5,2,5+,-1.0,510.0,False,True,True,True,True,True,False,False,True,False,3000000
+857,فيلا,الرياض,حي قرطبة,شمالية,5,2,5+,-1.0,665.0,False,False,True,True,True,True,False,False,True,False,5400000
+858,فيلا,الرياض,حي الجنادرية,غربية,6,3,5+,5.0,312.0,True,True,False,False,False,True,False,False,False,False,1450000
+860,فيلا,الرياض,حي الجنادرية,شمالية,4,2,4,-1.0,250.0,True,True,True,False,True,True,False,False,True,True,1900000
+862,فيلا,الرياض,حي المونسية,شرقية,4,1,4,-1.0,250.0,True,True,True,True,True,True,False,False,True,True,1800000
+863,فيلا,الرياض,حي القدس,شرقية,4,4,5+,-1.0,450.0,True,True,True,True,True,True,True,False,True,True,4200000
+866,فيلا,الرياض,حي النظيم,شرقية,4,3,3,25.0,600.0,False,True,True,False,True,True,False,False,True,False,1800000
+867,فيلا,الرياض,حي المونسية,غربية,4,2,5+,-1.0,250.0,True,True,True,False,False,True,True,False,True,True,2380000
+870,فيلا,الرياض,الرياض,شمالية غربية,5,2,4,18.0,354.0,False,True,True,True,True,True,False,False,True,False,1800000
+876,فيلا,الرياض,حي الاندلس,جنوبية,7+,3,5+,-1.0,375.0,True,False,False,False,False,False,False,False,True,True,3300000
+880,فيلا,الرياض,حي الروضة,غربية,7+,2,5+,-1.0,355.0,True,True,True,False,False,True,False,False,True,True,2600000
+883,فيلا,الرياض,حي الملز,شرقية,7+,1,5+,-1.0,431.0,False,False,False,False,False,False,False,False,False,False,1250000
+884,فيلا,الرياض,حي القدس,جنوبية,5,2,5+,-1.0,500.0,True,False,True,True,False,False,False,False,False,False,2500000
+885,فيلا,الرياض,حي الرمال,جنوبية,6,2,5+,-1.0,250.0,True,True,False,False,True,True,False,False,True,False,1500000
+886,فيلا,الرياض,حي المونسية,شرقية,4,3,5+,-1.0,250.0,True,False,True,False,False,False,False,False,True,False,1850000
+887,فيلا,الرياض,حي النهضة,غربية,2,2,3,-1.0,375.0,True,True,False,False,False,False,False,False,False,True,2250000
+888,فيلا,الرياض,حي الملك فيصل,جنوبية,4,1,4,-1.0,250.0,True,True,True,True,True,True,False,False,True,True,1900000
+890,فيلا,الرياض,حي النسيم الشرقي,جنوبية شرقية,5,3,5+,-1.0,992.0,True,True,True,True,True,True,False,False,True,False,4500000
+891,فيلا,الرياض,حي المونسية,جنوبية غربية,5,2,5+,-1.0,480.0,False,True,False,False,False,False,False,False,False,False,5000000
+892,فيلا,الرياض,حي المونسية,شمالية,4,2,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,True,2350000
+893,فيلا,الرياض,شارع ابراهيم القيسي,جنوبية,5,1,4,-1.0,300.0,False,True,True,True,True,False,True,False,True,False,2900000
+901,فيلا,الرياض,حي القادسية,شمالية شرقية,5,2,5+,20.0,750.0,True,True,True,True,True,True,False,False,True,False,6500000
+906,فيلا,الرياض,حي اشبيلية,جنوبية,5,3,5+,-1.0,345.0,True,True,True,False,False,False,False,False,True,False,2500000
+907,فيلا,الرياض,الرياض,شمالية غربية,6,1,4,-1.0,276.0,True,True,True,False,True,True,False,False,True,False,1160000
+911,فيلا,الرياض,حي المونسية,جنوبية,5,3,5+,-1.0,342.0,False,True,False,False,False,False,False,False,False,False,2100000
+913,فيلا,الرياض,حي النهضة,شرقية,5,3,5+,5.0,360.0,True,True,True,True,True,True,False,False,True,False,1900000
+914,فيلا,الرياض,حي المعيزيلة,شمالية,5,2,5+,-1.0,270.0,True,True,True,False,True,True,False,False,True,False,1550000
+923,فيلا,الرياض,حي الحمراء,غربية,5,3,5+,-1.0,300.0,True,True,True,True,False,True,False,False,True,True,2700000
+927,فيلا,الرياض,حي الرمال,شمالية,4,5,4,-1.0,281.0,True,True,True,True,False,True,False,False,True,False,1500000
+928,فيلا,الرياض,حي الازدهار,جنوبية,5,3,5+,-1.0,350.0,True,True,True,True,False,True,True,True,False,False,3000000
+931,فيلا,الرياض,الرياض,غربية,5,2,5+,-1.0,224.0,False,True,True,False,True,True,False,False,True,False,1050000
+933,فيلا,الرياض,حي المعيزلة,غربية,5,2,5+,-1.0,600.0,True,True,False,False,False,False,False,False,True,False,3000000
+935,فيلا,الرياض,الرياض,غربية,5,3,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,True,2300000
+936,فيلا,الرياض,حي الجزيرة,شمالية,5,1,5+,20.0,484.0,False,True,True,True,True,True,False,False,False,False,2250000
+937,فيلا,الرياض,حي القادسية,شمالية,7+,1,5+,15.0,420.0,False,True,True,False,False,True,False,False,True,True,2350000
+938,فيلا,الرياض,حي الرمال,جنوبية,5,3,5+,-1.0,387.0,True,True,True,True,True,True,False,False,True,False,1900000
+939,فيلا,الرياض,حي الرمال,شمالية شرقية,6,2,5+,-1.0,404.0,True,False,False,True,True,True,False,True,True,True,2100000
+943,فيلا,الرياض,حي المونسية,جنوبية,5,2,5+,15.0,250.0,True,True,True,False,True,True,False,False,True,False,1750000
+945,فيلا,الرياض,حي المونسية,جنوبية,7+,3,5+,-1.0,250.0,True,True,True,True,True,True,False,False,True,False,1400000
+946,فيلا,الرياض,الرياض,شمالية,4,1,4,40.0,236.0,True,True,False,False,True,True,False,False,False,False,1070000
+948,فيلا,الرياض,حي الرمال,شمالية,7+,1,5+,15.0,250.0,True,True,False,False,True,True,False,False,True,False,1280000
+951,فيلا,الرياض,حي الرمال,شمالية,4,1,4,-1.0,230.0,True,False,True,False,False,True,False,False,True,False,1300000
+952,فيلا,الرياض,الرياض,شمالية,5,3,5+,5.0,312.0,True,True,True,False,False,True,False,False,True,True,2300000
+954,فيلا,الرياض,حي الاندلس,جنوبية غربية,5,2,5+,15.0,570.0,True,True,True,True,True,True,False,False,True,False,2200000
+956,فيلا,الرياض,حي الرمال,شرقية,5,4,5+,-1.0,430.0,False,True,False,False,True,True,False,False,True,False,2870000
+958,فيلا,الرياض,حي المنار,شمالية,7+,2,5+,20.0,250.0,True,True,True,True,False,True,False,False,True,False,1500000
+959,فيلا,الرياض,حي المنار,شمالية,3,2,3,-1.0,600.0,True,False,False,False,False,False,False,False,False,False,2750000
+960,فيلا,الرياض,حي الجنادرية,جنوبية,7+,2,5+,-1.0,200.0,False,True,False,False,False,False,False,False,True,True,1100000
+961,فيلا,الرياض,حي الرمال,جنوبية,5,2,5+,-1.0,250.0,True,True,True,False,True,True,False,False,True,False,1300000
+963,فيلا,الرياض,حي الريان,جنوبية,5,2,5+,15.0,390.0,True,False,True,False,True,True,False,False,True,False,3000000
+964,فيلا,الرياض,حي الجنادرية,شمالية,5,2,5+,15.0,270.0,True,True,True,False,False,True,False,False,True,False,1000000
+966,فيلا,الرياض,الرياض,جنوبية غربية,5,1,4,-1.0,264.0,True,False,True,False,True,True,False,False,True,True,2150000
+976,فيلا,الرياض,حي الريان,شرقية,7+,4,5+,15.0,625.0,True,True,True,True,True,True,False,False,True,False,3200000
+978,فيلا,الرياض,حي السلام,شرقية,5,1,5+,-1.0,250.0,True,False,True,False,False,True,False,False,False,False,2200000
+979,فيلا,الرياض,الرياض,شمالية,4,1,4,-1.0,600.0,True,False,False,False,False,False,False,False,False,False,2750000
+981,فيلا,الرياض,حي الرمال,شمالية,4,2,4,25.0,205.0,False,True,False,False,False,True,False,False,True,False,1250000
+982,فيلا,الرياض,حي الرمال,جنوبية,7+,2,5+,-1.0,662.0,True,True,True,False,True,False,False,False,True,False,3000000
+988,فيلا,الرياض,حي المونسية,شمالية,7+,3,5+,20.0,362.0,False,True,False,True,True,True,False,False,True,False,2350000
+989,فيلا,الرياض,حي النهضة,غربية,5,3,5+,15.0,275.0,True,True,True,False,False,True,False,False,True,False,1800000
+990,فيلا,الرياض,حي النظيم,جنوبية,3,1,4,15.0,375.0,False,True,False,False,True,False,False,False,True,False,1050000
+995,فيلا,الرياض,حي البيان,جنوبية,7+,2,5+,-1.0,329.0,True,True,True,False,True,True,False,False,True,False,1650000
+997,فيلا,الرياض,حي الرمال,جنوبية,4,2,4,-1.0,338.0,True,True,True,True,True,True,False,False,True,False,1270000
+1001,فيلا,الرياض,حي المونسية,جنوبية,7+,4,5+,-1.0,580.0,True,True,True,True,True,True,True,False,True,True,5500000
+1003,فيلا,الرياض,حي الرمال,جنوبية,5,2,5+,-1.0,259.0,True,True,True,False,True,True,False,False,True,False,1470000
+1006,فيلا,الرياض,حي النهضة,شمالية,7+,2,4,-1.0,300.0,True,True,True,False,False,True,False,False,True,False,1900000
+1007,فيلا,الرياض,الرياض,شمالية,5,2,3,-1.0,275.0,True,False,True,False,False,False,False,False,True,True,1825000
+1008,فيلا,الرياض,حي المونسية,غربية,4,2,3,20.0,252.0,False,True,False,False,False,True,False,False,False,False,1580000
+1010,فيلا,الرياض,حي المونسية,غربية,5,3,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,False,2300000
+1012,فيلا,الرياض,حي المعيزلة,شمالية,5,2,5+,17.0,595.0,True,True,True,True,True,True,False,False,True,False,2500000
+1019,فيلا,الرياض,الرياض,جنوبية,6,2,4,-1.0,375.0,True,True,False,False,True,True,False,False,True,True,2000000
+1026,فيلا,الرياض,حي الرمال,شمالية,6,1,3,15.0,400.0,False,True,False,True,True,True,False,False,True,False,2650000
+1033,فيلا,الرياض,حي الشرق,جنوبية,7+,3,5+,-1.0,360.0,True,True,True,False,True,True,False,False,True,False,1900000
+1034,فيلا,الرياض,حي اشبيلية,شمالية,6,2,4,-1.0,500.0,False,True,False,False,True,True,False,False,False,False,2850000
+1035,فيلا,الرياض,حي الرمال,جنوبية,5,2,5+,-1.0,312.0,True,True,True,False,False,False,False,False,True,False,1800000
+1038,فيلا,الرياض,حي المعيزلة,شرقية,6,4,5+,-1.0,600.0,True,True,True,True,False,True,False,False,True,False,3200000
+1039,فيلا,الرياض,حي المعيزلة,غربية,7+,3,4,-1.0,480.0,False,False,False,True,False,True,True,False,True,False,2000000
+1041,فيلا,الرياض,حي المونسية,شرقية,7+,2,4,-1.0,250.0,True,False,True,False,True,True,False,False,True,True,1850000
+1043,فيلا,الرياض,حي الخليج,غربية,4,2,3,-1.0,480.0,False,False,True,True,False,True,False,False,True,False,1400000
+1044,فيلا,الرياض,حي الرمال,جنوبية,5,2,5+,-1.0,312.0,True,True,True,False,True,True,False,False,True,False,1800000
+1045,فيلا,الرياض,حي الرمال,جنوبية,5,1,2,-1.0,400.0,False,False,False,False,False,False,False,False,False,False,1200000
+1047,فيلا,الرياض,الرياض,شرقية,5,3,5+,-1.0,375.0,True,True,True,False,True,True,False,False,True,True,3650000
+1049,فيلا,الرياض,حي اليرموك,شمالية,7+,2,5+,-1.0,321.0,True,True,True,False,True,True,False,False,True,True,2250000
+1051,فيلا,الرياض,حي الشرق,غربية,7+,2,5+,-1.0,420.0,True,True,True,True,True,True,False,False,True,False,2200000
+1052,فيلا,الرياض,حي المونسية,شمالية,4,2,4,-1.0,213.0,False,True,True,False,True,True,False,False,True,False,1350000
+1054,فيلا,الرياض,حي اشبيلية,جنوبية,1,3,5+,-1.0,312.0,False,False,False,False,False,False,False,False,False,False,2000000
+1056,فيلا,الرياض,حي البيان,شرقية,4,3,5+,-1.0,405.0,True,True,True,False,True,True,False,False,True,False,1600000
+1058,فيلا,الرياض,حي البيان,غربية,7+,3,5+,-1.0,420.0,False,True,False,False,False,False,False,False,False,False,2200000
+1059,فيلا,الرياض,حي الجنادرية,غربية,7+,3,5+,-1.0,312.0,False,False,True,False,False,False,False,False,True,False,1450000
+1060,فيلا,الرياض,حي الحمراء,شرقية,7+,3,5+,-1.0,1237.0,True,True,True,True,True,True,False,False,True,False,6686880
+1063,فيلا,الرياض,حي الجنادرية,غربية,7+,3,5+,-1.0,312.0,False,False,False,False,False,False,False,False,True,False,1450000
+1064,فيلا,الرياض,حي الجنادرية,شمالية,4,5,5+,-1.0,300.0,True,True,True,False,True,True,False,False,True,True,2350000
+1065,فيلا,الرياض,حي الاندلس,شمالية,5,4,4,-1.0,375.0,False,True,True,True,True,True,False,False,True,False,1900000
+1066,فيلا,الرياض,الرياض,شمالية,4,2,3,-1.0,268.0,True,False,False,False,False,False,False,False,False,False,1250000
+1067,فيلا,الرياض,حي الروابي,جنوبية,7+,3,5+,-1.0,780.0,True,True,True,True,True,True,False,False,True,False,4000000
+1069,فيلا,الرياض,حي اليرموك,غربية,4,1,3,-1.0,312.0,False,False,False,False,False,False,False,False,True,False,1100000
+1070,فيلا,الرياض,حي اليرموك,جنوبية,4,2,4,-1.0,200.0,True,True,True,False,True,True,False,False,True,False,1800000
+1071,فيلا,الرياض,حي الرمال,شمالية,4,2,5+,-1.0,320.0,True,False,True,True,False,True,False,False,True,False,1700000
+1072,فيلا,الرياض,حي الرمال,جنوبية,3,2,5+,-1.0,292.0,True,True,True,True,True,True,False,False,True,False,1175000
+1073,فيلا,الرياض,حي الصفا,جنوبية غربية,5,2,4,-1.0,400.0,False,True,False,False,True,True,False,False,True,False,1100000
+1076,فيلا,الرياض,حي المونسية,شمالية غربية,4,1,5+,-1.0,312.0,True,False,False,False,False,False,False,False,False,False,2100000
+1077,فيلا,الرياض,حي الفيحاء,شرقية,4,3,5+,-1.0,390.0,False,True,False,False,True,True,False,False,True,False,2200000
+1079,فيلا,الرياض,حي المونسية,غربية,6,2,4,-1.0,300.0,True,False,False,False,True,True,False,False,True,False,2000000
+1080,فيلا,الرياض,حي المونسية,جنوبية,7+,7+,5+,-1.0,562.0,True,True,True,False,False,True,False,False,True,False,3075000
+1082,فيلا,الرياض,حي المونسية,غربية,5,2,4,-1.0,250.0,True,True,True,False,True,True,False,False,True,True,1900000
+1084,فيلا,الرياض,حي النهضة,شرقية,5,3,4,-1.0,360.0,False,True,True,True,True,True,False,False,True,False,2000000
+1085,فيلا,الرياض,حي الازدهار,جنوبية شرقية,7+,5,5+,-1.0,720.0,True,True,True,True,True,True,False,True,True,False,3900000
+1087,فيلا,الرياض,حي النسيم الغربي,شرقية,4,1,3,-1.0,450.0,False,False,False,False,False,True,False,False,True,False,1500000
+1088,فيلا,الرياض,حي الاندلس,شرقية,5,1,5+,-1.0,632.0,False,True,True,False,True,True,False,False,True,False,2400000
+1089,فيلا,الرياض,حي القدس,جنوبية,5,2,5+,-1.0,435.0,False,True,True,False,True,True,False,False,True,False,2500000
