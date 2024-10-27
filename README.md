@@ -33,3 +33,5 @@ The following Exploratory Data Analysis (EDA) steps were applied:
 6. **The distribution of land types in Riyadh neighborhoods**: This chart shows the distribution of land types in Riyadh neighborhoods based on their intended use, indicating that residential plots make up the majority in most neighborhoods, especially in "Al-Mahdiyah" and "Al-Narjis," reflecting high demand or availability of residential land in these areas. Mixed-use plots (residential and commercial) appear in moderate proportions, particularly in neighborhoods like "Al-Rimal" and "Dhahrat Laban," while purely commercial plots are less prevalent, which may reflect the predominantly residential nature of most of these neighborhoods.
 ![image](https://github.com/user-attachments/assets/d35655ef-c9f7-48f6-b73f-f78f5837b79d)
 
+
+For a live, interactive experience, explore our [Aqar Analysis Streamlit App](https://usecase-6-project-3-phn4sparwclq7lawgvqobu.streamlit.app/) to dive into the insights and visualizations.
