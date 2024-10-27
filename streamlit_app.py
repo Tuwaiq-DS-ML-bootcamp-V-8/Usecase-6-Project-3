@@ -6,6 +6,8 @@ import streamlit as st
 from matplotlib import rcParams
 from bidi.algorithm import get_display
 import arabic_reshaper
+import plotly.express as px
+from PIL import Image  # Import Image from Pillow
 
 # Set the page layout to wide
 st.set_page_config(layout="wide")
@@ -85,13 +87,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Plot for high land prices
-fig, ax = plt.subplots(figsize=(15, 6))
-sns.barplot(data=expensive_hoods, x='الحي', y='سعر المتر', ax=ax)
-plt.xticks(rotation=90, fontsize=10, ha='center')
-plt.title(reshape_arabic('سعر المتر المربع حسب الحي'), fontweight='bold')
-plt.ylabel(reshape_arabic('سعر المتر (ريال)'), fontweight='bold')
-st.pyplot(fig)
+image_q1 = Image.open("./images/q1.png")
+st.image(image_q1, use_column_width=True)
 
 # Section 2: Land Availability by Neighborhood
 st.markdown('<div class="section-box"><div class="header">٢. توافر الأراضي حسب الحي</div>', unsafe_allow_html=True)
@@ -103,12 +100,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Plot for land availability
-fig, ax = plt.subplots(figsize=(20, 8))
-sns.barplot(data=land_count_by_hood_df, x='الحي', y='عدد الأراضي', ax=ax)
-plt.xticks(rotation=90, fontsize=10, ha='center')
-plt.title(reshape_arabic('عدد الأراضي المتاحة للبيع حسب الحي'), fontweight='bold')
-plt.ylabel(reshape_arabic('عدد الأراضي'), fontweight='bold')
-st.pyplot(fig)
+image_q1 = Image.open("./images/q2.png")
+st.image(image_q1, use_column_width=True)
 
 # Section 3: Relationship Between Land Price and Size
 st.markdown('<div class="section-box"><div class="header">٣. العلاقة بين سعر المتر والمساحة</div>', unsafe_allow_html=True)
