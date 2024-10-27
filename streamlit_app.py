@@ -94,7 +94,7 @@ st.image(image_q1, use_column_width=True)
 st.markdown('<div class="section-box"><div class="header">٢. توافر الأراضي حسب الحي</div>', unsafe_allow_html=True)
 st.markdown("""
 <div class="text">
-سعود بعدين راح يشوف عدد الأراضي المتاحة لكل حي. قال لراكان: "إذا كنت تبي خيارات أكثر وتفاوض بالسعر، ركّز على الأحياء اللي فيها أراضي واجد زي النفل والياسمين."
+سعود بعدين راح يشوف عدد الأراضي المتاحة لكل حي. قال لراكان: "إذا كنت تبي خيارات أكثر وتفاوض بالسعر، ركّز على الأحياء اللي فيها أراضي واجد زي المهدية والنرجس."
 </div>
 </div>
 """, unsafe_allow_html=True)
@@ -112,20 +112,16 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Scatter plot for price per sqm vs. size
-fig, ax = plt.subplots(figsize=(15, 6))
-sns.scatterplot(data=riyadh_aqqar_df, x='المساحة', y='سعر المتر', hue='الحي', ax=ax)
-plt.title(reshape_arabic('سعر المتر المربع مقابل المساحة حسب الحي'), fontweight='bold')
-plt.xlabel(reshape_arabic('المساحة (متر مربع)'), fontweight='bold')
-plt.ylabel(reshape_arabic('سعر المتر (ريال)'), fontweight='bold')
-plt.legend(title=reshape_arabic('الحي'), loc='upper right', bbox_to_anchor=(1.15, 1))
-st.pyplot(fig)
+
+# Plot for land availability
+image_q3 = Image.open("./images/q3.png")
+st.image(image_q3, use_column_width=True)
 
 # Section 4: Land Purpose Distribution
 st.markdown('<div class="section-box"><div class="header">٤. توزيع الأراضي حسب الغرض في كل حي</div>', unsafe_allow_html=True)
 st.markdown("""
 <div class="text">
-أخيراً، وضح سعود لراكان إن بعض الأحياء تكون أغلب أراضيها تجارية، زي العليا، وهذي تناسب المشاريع التجارية اللي تستهدف موظفين المكاتب. أما الأحياء اللي فيها أراضي متعددة الاستخدام، زي الياسمين، فتعطي مرونة للمقاهي اللي تبغى تخدم سكنيين وتجاريين.
+أخيراً، وضح سعود لراكان إن بعض الأحياء تكون أغلب أراضيها تجارية، زي النرجس، وهذي تناسب المشاريع التجارية اللي تستهدف موظفين المكاتب. أما الأحياء اللي فيها أراضي متعددة الاستخدام، زي الرمال، فتعطي مرونة للمقاهي اللي تبغى تخدم سكنيين وتجاريين.
 </div>
 </div>
 """, unsafe_allow_html=True)
