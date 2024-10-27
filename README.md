@@ -68,7 +68,7 @@ duplex is less popular among riyadh market due to thier small distant.
 
 This suggests high correletion between house price and its distant.
 
-Stream Link:  [Stream link ](https://usecase-6-project-3-7jyad4rpsqbhyqw3hpzcin.streamlit.app)
+Stream Link:  [نظرة في عقار العاصمة ](https://usecase-6-project-3-7jyad4rpsqbhyqw3hpzcin.streamlit.app)
 
 
 
