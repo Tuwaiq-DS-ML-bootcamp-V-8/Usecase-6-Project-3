@@ -4,8 +4,12 @@ In this project, we applied Exploratory Data Analysis (EDA) to each data set to 
 
 # datasets used:
 -apartments in Riyadh Saudi Arabia
+
 -Riyadh Aqaar Dataset
+
 -RiyadhHousingData
+
+# data storytelling:
 
 
 بين الحلم و الواقع
